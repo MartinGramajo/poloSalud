@@ -52,32 +52,32 @@ export default function Brands({ title }) {
       >
         <SwiperSlide>
           <div className="centrado ">
-            <img className="brands-width" src={cliente} />
+            <img className="brands-width" src={cliente} alt="cliente 1 " />
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div className="centrado ">
-            <img className="brands-width" src={cliente2} />
+            <img className="brands-width" src={cliente2} alt="cliente 2 " />
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div className="centrado ">
-            <img className="brands-width" src={cliente3} />
+            <img className="brands-width" src={cliente3} alt="cliente 3 " />
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div className="centrado ">
-            <img className="brands-width" src={cliente4} />
+            <img className="brands-width" src={cliente4} alt="cliente 4 " />
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div className="centrado ">
-            <img className="brands-width" src={cliente5} />
+            <img className="brands-width" src={cliente5} alt="cliente 5 " />
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div className="centrado ">
-            <img className="brands-width" src={cliente6} />
+            <img className="brands-width" src={cliente6} alt="cliente 6 " />
           </div>
         </SwiperSlide>
       </Swiper>
