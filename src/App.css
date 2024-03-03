@@ -13,6 +13,11 @@ body {
   background: linear-gradient(90deg, rgba(119, 108, 187, 1) 0%, rgba(119, 108, 187, 1) 50%, rgba(0, 0, 0, 1) 100%);
 }
 
+/* GALERIA DE FOTOS */
+.foto-width {
+  width: 500px !important;
+}
+
 /* NavbarNegro */
 .nav-links:after {
   display: flex;

@@ -28,35 +28,42 @@ const NavReact = () => {
               >
                 INICIO
               </Nav.Link>
-              <Nav.Link
+              {/* <Nav.Link
                 to="/servicios"
                 as={NavLink}
                 className="tamaño-medium ms-auto color-blanco mx-xl-2 my-auto nav-links"
               >
                 SERVICIOS
-              </Nav.Link>
+              </Nav.Link> */}
 
               <Nav.Link
-                to="/productos"
+                to="/galeria"
                 as={NavLink}
                 className="tamaño-medium ms-auto color-blanco mx-xl-2 my-auto nav-links"
               >
                 GALERÍA
               </Nav.Link>
               <Nav.Link
-                to="/empresa"
+                to="/novedades"
                 as={NavLink}
                 className="tamaño-medium ms-auto color-blanco mx-xl-2 my-auto nav-links"
               >
                 NOVEDADES
               </Nav.Link>
-              <Nav.Link
+              {/* <Nav.Link
+                to="/empresa"
+                as={NavLink}
+                className="tamaño-medium ms-auto color-blanco mx-xl-2 my-auto nav-links"
+              >
+                NOVEDADES
+              </Nav.Link> */}
+              {/* <Nav.Link
                 to="/contacto"
                 as={NavLink}
                 className="tamaño-medium ms-auto color-blanco mx-xl-2 my-auto nav-links"
               >
                 CONTACTO
-              </Nav.Link>
+              </Nav.Link> */}
             </Nav>
           </Navbar.Collapse>
         </Container>
