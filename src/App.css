@@ -8,6 +8,14 @@ body {
   background-color: #1f9ba3 !important;
 }
 
+.color-azul {
+  color: #1f9ba3 !important;
+}
+
+.color-azul-claro {
+  color: #8ecfd3 !important;
+}
+
 .color-morado-fondo {
   background: rgb(119, 108, 187);
   background: linear-gradient(90deg, rgba(119, 108, 187, 1) 0%, rgba(119, 108, 187, 1) 50%, rgba(0, 0, 0, 1) 100%);

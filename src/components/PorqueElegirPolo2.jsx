@@ -1,17 +1,11 @@
 import { faCheckCircle } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-const PorqueElegirPolo = () => {
+const PorqueElegirPolo2 = () => {
   return (
     <section className=" bg-white">
-      <div className="container pt-5">
-        <div className="row  text-center my-5 text-dark">
-          <h1 className="text-center text-dark pt-5">
-            {" "}
-            ¿ PORQUE ELEGIR POLO SALUD ?
-          </h1>
-          <h4 className="pb-5"> Que te ofrecemos</h4>
-
+      <div className="container">
+        <div className="row  text-center text-dark">
           <div className="col-12 col-md-12 col-lg-4 ">
             <div>
               <FontAwesomeIcon
@@ -20,8 +14,9 @@ const PorqueElegirPolo = () => {
               />
               <div className="my-4">
                 <h6>
-                  Por qué al igual que los jugadores, lo que más nos importa es
-                  el caballo, su salud, su rendimiento y su bienestar
+                  Solo utilizamos técnicas manuales, sin efectos secundarios y
+                  que no se consideran doping en ningún país, por lo tanto
+                  pueden aplicarse antes, durante o después de un partido.
                 </h6>
               </div>
             </div>
@@ -34,8 +29,9 @@ const PorqueElegirPolo = () => {
               />
               <div className="my-4">
                 <h6>
-                  Consideramos al caballo de polo como un deportista, por eso le
-                  brindamos servicios que ayudan a mantenerlo saludable.
+                  Somos internacionales. Nos desplazamos “in situ”, donde la
+                  caballada este y elaboramos un plan de tratamiento único para
+                  cada organización.
                 </h6>
               </div>
             </div>
@@ -48,8 +44,9 @@ const PorqueElegirPolo = () => {
               />
               <div className="my-4">
                 <h6>
-                  Tratamos al caballo de forma global para que pueda mantener su
-                  rendimiento deportivo a lo largo del tiempo
+                  Trabajamos en equipo. Desde el día uno, nos ponemos en
+                  contacto y al servicio de los demás profesionales que hacen al
+                  cuidado del caballo (veterinarios, herradores, dentistas, etc)
                 </h6>
               </div>
             </div>
@@ -60,4 +57,4 @@ const PorqueElegirPolo = () => {
   );
 };
 
-export default PorqueElegirPolo;
+export default PorqueElegirPolo2;

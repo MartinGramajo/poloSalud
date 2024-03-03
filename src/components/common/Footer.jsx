@@ -25,7 +25,8 @@ export default function Footer() {
             <ul className="list-unstyled my-5">
               <li>
                 <p className="tamaño-chico text-center  mt-2 mb-0">
-                  Direccion: calle 123 <br />
+                  Direccion: Miguel de Cervantes, 23. 07181. Costa d'en Blanes.
+                  Mallorca. islas Baleares <br />
                   Cel: +34 650 032 819 <br />
                   Mail: malujanarias@gmail.com
                   <br />

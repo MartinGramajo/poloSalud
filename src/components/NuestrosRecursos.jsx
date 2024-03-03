@@ -7,62 +7,53 @@ const NuestrosRecursos = () => {
       <div className="container py-5">
         <h1 className="text-center text-white pt-5"> Valores </h1>
         <div className="row text-white text-center my-5">
-          <div className="col-12 col-md-6 col-lg-3">
+          <div className="col-12 col-md-12 col-lg-4">
             <div>
               <FontAwesomeIcon
-                className="iconos-redes fs-1"
+                className="iconos-redes fs-1 color-azul  "
                 icon={faCheckDouble}
               />
               <div className="my-4">
-                <h5> COMPROMISO </h5>
+                <h5> CONOCIMIENTO </h5>
                 <h6>
-                  El compromiso real con los clientes es la forma de entender
-                  nuestra actividad.
+                  Somos profesionales, osteópatas diplomados D.O., inscriptos en
+                  el Registro de Osteópatas de España ROE, y especializados en
+                  osteopatía equina por la European School of Osteopathy ESO en
+                  Inglaterra, capacitados en anatomía, biomecánica, fisiología,
+                  neurología y semiopatología equina.
                 </h6>
               </div>
             </div>
           </div>
-          <div className="col-12 col-md-6 col-lg-3">
+          <div className="col-12 col-md-12 col-lg-4">
             <div>
               <FontAwesomeIcon
-                className="iconos-redes fs-1"
+                className="iconos-redes fs-1 color-azul "
                 icon={faCheckDouble}
               />
               <div className="my-4">
-                <h5> HONESTIDAD </h5>
+                <h5> TRABAJO EN EQUIPO </h5>
                 <h6>
-                  Valor indispensable para generar un ambiente de confianza y
-                  armonía, la honestidad garantiza credibilidad.
+                  Lo que más nos importa es la salud y el bienestar del caballo,
+                  por lo que siempre tomamos la mejor decisión en pos del
+                  caballo, y si es necesario involucrar a otros profesionales
+                  que hacen a la salud del caballo, se hace en su respectivo
+                  momento.
                 </h6>
               </div>
             </div>
           </div>
-          <div className="col-12 col-md-6 col-lg-3 ">
+          <div className="col-12 col-md-12 col-lg-4 ">
             <div>
               <FontAwesomeIcon
-                className="iconos-redes fs-1"
+                className="iconos-redes fs-1 color-azul "
                 icon={faCheckDouble}
               />
               <div className="my-4">
-                <h5> RESPETO POR LOS ANIMALES </h5>
+                <h5> EFICIENCIA Y BIENESTAR </h5>
                 <h6>
-                  En el ámbito personal y profesional, o en cualquier situación
-                  que acontezca, tanto dentro como fuera de la empresa.
-                </h6>
-              </div>
-            </div>
-          </div>
-          <div className="col-12 col-md-6 col-lg-3">
-            <div>
-              <FontAwesomeIcon
-                className="iconos-redes fs-1"
-                icon={faCheckDouble}
-              />
-              <div className="my-4">
-                <h5> EQUIPO </h5>
-                <h6>
-                  Trabajamos en equipo, lo que supone colaborar, compartir
-                  esfuerzos y multiplicar logros.
+                  Nuestro trabajo hace que el caballo viva en salud día a día,
+                  mejorando su calidad de vida, su bienestar y su performance .
                 </h6>
               </div>
             </div>
