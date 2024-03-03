@@ -1,12 +1,6 @@
-import {
-  faCity,
-  faEnvelope,
-  faHouse,
-  faPhone,
-} from "@fortawesome/free-solid-svg-icons";
+import { faCity, faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import ContactoForm from "./ContactoForm";
-import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 
 const ContactoContenido = () => {
   return (
@@ -18,7 +12,7 @@ const ContactoContenido = () => {
         <h5> podes enviarnos un correo electrónico con tu consulta</h5>
       </div>
       <div className="d-flex justify-content-center">
-        <hr style={{ width: "200px", color: "#d02323" }} />
+        <hr style={{ width: "200px", color: "#8ECFD3" }} />
       </div>
       <div className="row my-4 text-center">
         <div className="col-lg-6 col-12">

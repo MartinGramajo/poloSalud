@@ -4,8 +4,8 @@ body {
   font-family: "Lato", sans-serif;
 }
 
-.color-rojo-fondo {
-  background-color: #d02323 !important;
+.color-btn-fondo {
+  background-color: #1f9ba3 !important;
 }
 
 .color-morado-fondo {
@@ -24,8 +24,8 @@ body {
   position: static;
   width: 100%;
   height: 4px;
-  background-color: #d02323;
-  color: #d02323;
+  background-color: #1f9ba3;
+  color: #1f9ba3;
   content: "";
   opacity: 0;
   transition:

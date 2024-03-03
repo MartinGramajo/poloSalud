@@ -112,7 +112,7 @@ export default function ContactoForm() {
 
         <div className="d-flex justify-content-center ">
           <Button
-            className="w-25 p-2 border-0 text-white color-rojo-fondo"
+            className="w-25 p-2 border-0 text-white color-btn-fondo"
             size="sm"
             type="submit"
             value="Send"
