@@ -17,8 +17,13 @@ body {
 }
 
 .color-morado-fondo {
-  background: rgb(119, 108, 187);
-  background: linear-gradient(90deg, rgba(119, 108, 187, 1) 0%, rgba(119, 108, 187, 1) 50%, rgba(0, 0, 0, 1) 100%);
+  background: rgb(119, 108, 187) !important;
+  background: linear-gradient(
+    90deg,
+    rgba(119, 108, 187, 1) 0%,
+    rgba(119, 108, 187, 1) 50%,
+    rgba(0, 0, 0, 1) 100%
+  ) !important;
 }
 
 /* GALERIA DE FOTOS */

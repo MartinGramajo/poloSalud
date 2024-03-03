@@ -28,13 +28,13 @@ const NavReact = () => {
               >
                 INICIO
               </Nav.Link>
-              {/* <Nav.Link
+              <Nav.Link
                 to="/servicios"
                 as={NavLink}
                 className="tamaño-medium ms-auto color-blanco mx-xl-2 my-auto nav-links"
               >
                 SERVICIOS
-              </Nav.Link> */}
+              </Nav.Link>
 
               <Nav.Link
                 to="/galeria"
