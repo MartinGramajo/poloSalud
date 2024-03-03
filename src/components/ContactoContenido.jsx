@@ -30,32 +30,20 @@ const ContactoContenido = () => {
             <div className="my-4">
               <h5>
                 <FontAwesomeIcon className="mx-2 fs-4" icon={faCity} />
-                Hpólito Yrigoyen 1562, Santiago del Estero - capital
+                Dirección: calle 123
               </h5>
             </div>
-            <div className="my-4">
-              <h5>
-                <FontAwesomeIcon className="mx-2 fs-4" icon={faHouse} />
-                Av. República de Siria 1166, T4000 <br /> San Miguel de Tucumán,
-                Tucumán - Argentina
-              </h5>
-            </div>
-            <div className="my-4">
-              <h5>
-                <FontAwesomeIcon className="mx-2 fs-4" icon={faWhatsapp} />
-                WhatsApp: 3815207330 - 3814572720 (24 hs.){" "}
-              </h5>
-            </div>
+
             <div className="my-4">
               <h5>
                 <FontAwesomeIcon className="mx-2 fs-4" icon={faPhone} />
-                teléfonos: 381-4300606/4215607
+                Cel: +34 650 032 819
               </h5>
             </div>
             <div className="my-4">
               <h5>
                 <FontAwesomeIcon className="mx-2 fs-4" icon={faEnvelope} />
-                Email: ventas@santiagodiesel.com.ar{" "}
+                Email: malujanarias@gmail.com{" "}
               </h5>
             </div>
           </div>

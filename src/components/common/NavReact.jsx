@@ -50,20 +50,13 @@ const NavReact = () => {
               >
                 NOVEDADES
               </Nav.Link>
-              {/* <Nav.Link
-                to="/empresa"
-                as={NavLink}
-                className="tamaño-medium ms-auto color-blanco mx-xl-2 my-auto nav-links"
-              >
-                NOVEDADES
-              </Nav.Link> */}
-              {/* <Nav.Link
+              <Nav.Link
                 to="/contacto"
                 as={NavLink}
                 className="tamaño-medium ms-auto color-blanco mx-xl-2 my-auto nav-links"
               >
                 CONTACTO
-              </Nav.Link> */}
+              </Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

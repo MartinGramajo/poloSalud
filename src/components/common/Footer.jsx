@@ -46,15 +46,22 @@ export default function Footer() {
           </div>
           <div className="col-12 col-lg-3  text-center   mb-1 mt-3 p-1 ">
             <Nav className=" mt-2 mt-sm-0  flex-column mx-5 py-4 ">
-              <Nav.Link
+              {/* <Nav.Link
                 to="/servicios"
                 as={NavLink}
                 className=" text-white mx-xl-2 my-auto nav-links"
               >
                 SERVICIOS
+              </Nav.Link> */}
+              <Nav.Link
+                to="/"
+                as={NavLink}
+                className="text-white mx-xl-2 my-auto nav-links"
+              >
+                INICIO
               </Nav.Link>
               <Nav.Link
-                to="/empresa"
+                to="/galeria"
                 as={NavLink}
                 className="text-white mx-xl-2 my-auto nav-links"
               >

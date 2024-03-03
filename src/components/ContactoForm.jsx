@@ -97,7 +97,7 @@ export default function ContactoForm() {
             <Row className="mb-4">
               <Form.Group as={Col} md="12" controlId="validationCustom03">
                 <Form.Label className="text-black-50 mt-2  tamaño-medio">
-                  Mensaje
+                  Consulta
                 </Form.Label>
                 <InputGroup>
                   <Form.Control className="mb-2" as="textarea" name="msj" />
