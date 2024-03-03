@@ -1,7 +1,7 @@
 import { faCheckDouble } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-const Valores = () => {
+const NuestrosRecursos = () => {
   return (
     <section className=" bg-dark">
       <div className="container py-5">
@@ -31,9 +31,8 @@ const Valores = () => {
               <div className="my-4">
                 <h5> HONESTIDAD </h5>
                 <h6>
-                  Valor indispensable para que las relaciones humanas se
-                  desenvuelvan en un ambiente de confianza y armonía, la
-                  honestidad garantiza credibilidad.
+                  Valor indispensable para generar un ambiente de confianza y
+                  armonía, la honestidad garantiza credibilidad.
                 </h6>
               </div>
             </div>
@@ -45,7 +44,7 @@ const Valores = () => {
                 icon={faCheckDouble}
               />
               <div className="my-4">
-                <h5> RESPETO POR LAS PERSONAS </h5>
+                <h5> RESPETO POR LOS ANIMALES </h5>
                 <h6>
                   En el ámbito personal y profesional, o en cualquier situación
                   que acontezca, tanto dentro como fuera de la empresa.
@@ -74,4 +73,4 @@ const Valores = () => {
   );
 };
 
-export default Valores;
+export default NuestrosRecursos;

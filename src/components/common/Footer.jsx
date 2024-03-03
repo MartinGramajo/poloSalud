@@ -25,13 +25,10 @@ export default function Footer() {
             <ul className="list-unstyled my-5">
               <li>
                 <p className="tamaño-chico text-center  mt-2 mb-0">
-                  Hipólito Yrigoyen 1562 <br /> Santiago del Estero - capital{" "}
+                  Direccion: calle 123 <br />
+                  Cel: +34 650 032 819 <br />
+                  Mail: malujanarias@gmail.com
                   <br />
-                  Teléfonos : 381-4300606/4215607 <br />
-                  Cel: 3815207330 (whatsapp) <br />
-                  Cel: 3814572720 (24 hs.) <br />
-                  Mail : ventas@santiagodiesel.com.ar <br />
-                  San Miguel de Tucuman - Tucuman - Argentina
                 </p>
               </li>
             </ul>
@@ -41,52 +38,14 @@ export default function Footer() {
             <ul className="list-unstyled ">
               <li>
                 <p className="text-center">
-                  {" "}
                   Atención Horaria: <br /> lunes a viernes 9:00 a 18:00 <br />
                   sábados 09:00 a 13:00
                 </p>
               </li>
             </ul>
-
-            {/* <div className="d-flex justify-content-center  py-3">
-              <a
-                href="https://www.instagram.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FontAwesomeIcon
-                  className="iconos-redes fs-1 text-white"
-                  icon={faInstagram}
-                />
-              </a>
-              <a
-                href="https://www.facebook.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FontAwesomeIcon
-                  className="iconos-redes  fs-1 text-white"
-                  icon={faFacebook}
-                />
-              </a>
-            </div> */}
           </div>
           <div className="col-12 col-lg-3  text-center   mb-1 mt-3 p-1 ">
             <Nav className=" mt-2 mt-sm-0  flex-column mx-5 py-4 ">
-              <Nav.Link
-                to="/empresa"
-                as={NavLink}
-                className="text-white mx-xl-2 my-auto nav-links"
-              >
-                EMPRESA
-              </Nav.Link>
-              <Nav.Link
-                to="/productos"
-                as={NavLink}
-                className=" text-white mx-xl-2 my-auto nav-links"
-              >
-                PRODUCTOS
-              </Nav.Link>
               <Nav.Link
                 to="/servicios"
                 as={NavLink}
@@ -94,6 +53,21 @@ export default function Footer() {
               >
                 SERVICIOS
               </Nav.Link>
+              <Nav.Link
+                to="/empresa"
+                as={NavLink}
+                className="text-white mx-xl-2 my-auto nav-links"
+              >
+                GALERÍA
+              </Nav.Link>
+              <Nav.Link
+                to="/productos"
+                as={NavLink}
+                className=" text-white mx-xl-2 my-auto nav-links"
+              >
+                NOVEDADES
+              </Nav.Link>
+
               <Nav.Link
                 to="/contacto"
                 as={NavLink}
