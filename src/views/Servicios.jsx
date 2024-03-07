@@ -4,7 +4,7 @@ import ServiciosContenido from "../components/ServiciosContenido";
 const Servicios = () => {
   return (
     <div>
-      <BannerServicios />
+      {/* <BannerServicios /> */}
       <ServiciosContenido />
     </div>
   );
