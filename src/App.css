@@ -16,6 +16,10 @@ body {
   color: #8ecfd3 !important;
 }
 
+.bg-azul-claro {
+  background-color: #8ecfd3 !important;
+}
+
 .color-morado-fondo {
   background: rgb(119, 108, 187) !important;
   background: linear-gradient(
@@ -76,7 +80,7 @@ body {
   }
 }
 .tamaño-logo {
-  width: 80px;
+  width: 100px;
 }
 
 @media (max-width: 800px) {

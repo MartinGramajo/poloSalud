@@ -3,6 +3,11 @@ import { NavLink } from "react-router-dom";
 import logoNuevo from "../../assets/img/logo-nuevo.png";
 
 const NavReact = () => {
+  function cerrar() {
+    let navbar = document.querySelector(".navbar-toggler");
+    navbar.click();
+  }
+
   return (
     <>
       <Navbar
@@ -10,7 +15,7 @@ const NavReact = () => {
         expand="lg"
         variant="dark"
         sticky="top"
-        className="bg-dark"
+        className="color-morado-fondo"
       >
         <Container>
           <Navbar.Brand href="/">
@@ -24,13 +29,23 @@ const NavReact = () => {
               <Nav.Link
                 to="/"
                 as={NavLink}
+                onClick={cerrar}
                 className="tamaño-medium ms-auto color-blanco mx-xl-2 my-auto nav-links"
               >
                 INICIO
               </Nav.Link>
               <Nav.Link
+                to="/quien/soy"
+                as={NavLink}
+                onClick={cerrar}
+                className="tamaño-medium ms-auto color-blanco mx-xl-2 my-auto nav-links"
+              >
+                QUIEN SOY
+              </Nav.Link>
+              <Nav.Link
                 to="/servicios"
                 as={NavLink}
+                onClick={cerrar}
                 className="tamaño-medium ms-auto color-blanco mx-xl-2 my-auto nav-links"
               >
                 SERVICIOS
@@ -39,6 +54,7 @@ const NavReact = () => {
               <Nav.Link
                 to="/galeria"
                 as={NavLink}
+                onClick={cerrar}
                 className="tamaño-medium ms-auto color-blanco mx-xl-2 my-auto nav-links"
               >
                 GALERÍA
@@ -46,6 +62,7 @@ const NavReact = () => {
               <Nav.Link
                 to="/novedades"
                 as={NavLink}
+                onClick={cerrar}
                 className="tamaño-medium ms-auto color-blanco mx-xl-2 my-auto nav-links"
               >
                 NOVEDADES
@@ -53,6 +70,7 @@ const NavReact = () => {
               <Nav.Link
                 to="/contacto"
                 as={NavLink}
+                onClick={cerrar}
                 className="tamaño-medium ms-auto color-blanco mx-xl-2 my-auto nav-links"
               >
                 CONTACTO

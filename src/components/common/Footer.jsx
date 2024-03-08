@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 
 export default function Footer() {
   return (
-    <div className=" text-white bg-dark text-white mt-auto ">
+    <div className=" text-white color-morado-fondo text-white mt-auto ">
       <div className="px-4 pt-4 container">
         <div className="row">
           {/* Column1 */}
@@ -53,6 +53,13 @@ export default function Footer() {
                 className="text-white mx-xl-2 my-auto nav-links"
               >
                 INICIO
+              </Nav.Link>
+              <Nav.Link
+                to="/quien/soy"
+                as={NavLink}
+                className=" text-white mx-xl-2 my-auto nav-links"
+              >
+                QUIEN SOY
               </Nav.Link>
               <Nav.Link
                 to="/servicios"

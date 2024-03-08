@@ -13,7 +13,7 @@ const PorqueElegirPolo2 = () => {
                 icon={faCheckCircle}
               />
               <div className="my-4">
-                <h6>
+                <h6 style={{ fontSize: "18px" }}>
                   Solo utilizamos técnicas manuales, sin efectos secundarios y
                   que no se consideran doping en ningún país, por lo tanto
                   pueden aplicarse antes, durante o después de un partido.
@@ -28,7 +28,7 @@ const PorqueElegirPolo2 = () => {
                 icon={faCheckCircle}
               />
               <div className="my-4">
-                <h6>
+                <h6 style={{ fontSize: "18px" }}>
                   Somos internacionales. Nos desplazamos “in situ”, donde la
                   caballada este y elaboramos un plan de tratamiento único para
                   cada organización.
@@ -43,7 +43,7 @@ const PorqueElegirPolo2 = () => {
                 icon={faCheckCircle}
               />
               <div className="my-4">
-                <h6>
+                <h6 style={{ fontSize: "18px" }}>
                   Trabajamos en equipo. Desde el día uno, nos ponemos en
                   contacto y al servicio de los demás profesionales que hacen al
                   cuidado del caballo (veterinarios, herradores, dentistas, etc)

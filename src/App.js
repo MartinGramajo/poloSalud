@@ -9,6 +9,7 @@ import ScrollToTop from "./components/common/ScrollToTop";
 import Galeria from "./views/Galeria";
 import Novedades from "./views/Novedades";
 import Servicios from "./views/Servicios";
+import Empresa from "./views/Empresa";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <ScrollToTop />
         <Routes>
           <Route exact path="/" element={<Home />} />
+          <Route exact path="/quien/soy" element={<Empresa />} />
           <Route exact path="/servicios" element={<Servicios />} />
           <Route exact path="/galeria" element={<Galeria />} />
           <Route exact path="/novedades" element={<Novedades />} />

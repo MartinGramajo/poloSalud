@@ -12,7 +12,7 @@ const Home = () => {
       <Brands title="Estos son algunos de nuestros clientes:" />
       <div className="container py-5 my-5 text-center">
         <div>
-          <h4>
+          <h4 style={{ fontSize: "18px" }}>
             Somos profesionales diplomados, altamente capacitados en el análisis
             y optimización de la biomecánica del caballo de polo y que
             utilizamos principalmente técnicas manuales provenientes de la

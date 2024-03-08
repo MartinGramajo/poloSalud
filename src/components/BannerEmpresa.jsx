@@ -1,54 +1,20 @@
 import { Image } from "react-bootstrap";
-import Carousel from "react-bootstrap/Carousel";
-import banner from "../assets/img/banner1.png";
-import bannerCuadrado from "../assets/img/bannerCuadrado1.png";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBuilding } from "@fortawesome/free-solid-svg-icons";
-
+import bannerInicio from "../assets/img/CABALLO5.png";
+import bannerInicioCuadrado from "../assets/img/CABALLOCUADRADO5.png";
 const BannerEmpresa = () => {
   return (
     <div>
-      <div className="d-none d-md-block">
-        <div className="bg-dark">
-          <Carousel controls={false} fade>
-            <Carousel.Item>
-              <Image className="opacity-1" src={banner} alt="asdas" fluid />
-              <Carousel.Caption className="">
-                <div className="d-flex justify-content-center my-5">
-                  <FontAwesomeIcon
-                    className="iconos-redes fs-1"
-                    icon={faBuilding}
-                  />
-                </div>
-                <h1>NUESTRA EMPRESA</h1>
-              </Carousel.Caption>
-            </Carousel.Item>
-          </Carousel>
+      <div className="d-none d-md-block text-center">
+        <div className="">
+          <Image
+            className="py-4"
+            src={bannerInicio}
+            fluid
+            alt="inicio banner"
+          />
         </div>
       </div>
-      <div className="d-md-none d-block">
-        <div className="bg-dark">
-          <Carousel controls={false} fade>
-            <Carousel.Item>
-              <Image
-                className="opacity-1"
-                src={bannerCuadrado}
-                alt="asdas"
-                fluid
-              />
-              <Carousel.Caption className="">
-                <div className="d-flex justify-content-center my-5">
-                  <FontAwesomeIcon
-                    className="iconos-redes fs-1"
-                    icon={faBuilding}
-                  />
-                </div>
-                <h1>NUESTRA EMPRESA</h1>
-              </Carousel.Caption>
-            </Carousel.Item>
-          </Carousel>
-        </div>
-      </div>
+      <div className="d-md-none d-block text-center"></div>
     </div>
   );
 };

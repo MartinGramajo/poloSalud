@@ -1,53 +1,26 @@
 import { Image } from "react-bootstrap";
-import Carousel from "react-bootstrap/Carousel";
-import banner from "../assets/img/banner1.png";
-import bannerCuadrado from "../assets/img/bannerCuadrado1.png";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHandFist, faTruckFast } from "@fortawesome/free-solid-svg-icons";
-import bannerServicios from "../assets/img/bannerServicios.jpeg";
-import logoNuevo from "../assets/img/logo-nuevo.png";
+import bannerServicios from "../assets/img/CABALLO4.png";
+import bannerServiciosCuadrado from "../assets/img/CABALLOCUADRADO4.png";
 
 const BannerServicios = () => {
   return (
     <div>
-      <div className="d-none d-md-block">
-        <div className="bg-dark">
-          <Carousel className="" controls={false} fade>
-            <Carousel.Item className="text-center">
-              <Image
-                className="color-morado-fondo "
-                src={bannerServicios}
-                alt="asdas"
-                fluid
-              />
-              <Carousel.Caption className="">
-                <div className="d-flex justify-content-center my-5">
-                  <img className="tamaño-logo" src={logoNuevo} alt="logo" />
-                </div>
-                <h1>SERVICIOS</h1>
-              </Carousel.Caption>
-            </Carousel.Item>
-          </Carousel>
-        </div>
+      <div className="d-none d-md-block text-center">
+        <Image
+          className="py-4"
+          src={bannerServicios}
+          fluid
+          alt="inicio banner"
+        />
       </div>
-      <div className="d-md-none d-block">
-        <div className="bg-dark">
-          <Carousel controls={false} fade>
-            <Carousel.Item>
-              <Image
-                className="opacity-1"
-                src={bannerServicios}
-                alt="asdas"
-                fluid
-              />
-              <Carousel.Caption className="">
-                <div className="d-flex justify-content-center ">
-                  <img className="tamaño-logo" src={logoNuevo} alt="logo" />
-                </div>
-                <h1>SERVICIOS</h1>
-              </Carousel.Caption>
-            </Carousel.Item>
-          </Carousel>
+      <div className="d-md-none d-block text-center">
+        <div>
+          <Image
+            className="py-4"
+            src={bannerServiciosCuadrado}
+            fluid
+            alt="inicio banner"
+          />
         </div>
       </div>
     </div>

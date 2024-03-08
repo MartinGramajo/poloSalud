@@ -25,7 +25,9 @@ export default function Brands({ title }) {
   return (
     <>
       <div className="text-center ">
-        <h1 className=" pt-5">{title}</h1>
+        <h1 style={{ fontSize: "26px", fontWeight: "bold" }} className=" pt-5">
+          {title}
+        </h1>
       </div>
       <Swiper
         effect={"coverflow"}
@@ -50,32 +52,32 @@ export default function Brands({ title }) {
         modules={[Autoplay, EffectCoverflow, Pagination, Navigation]}
         className="mySwiper"
       >
-        <SwiperSlide>
+        <SwiperSlide className="bg-azul-claro">
           <div className="centrado ">
             <img className="brands-width" src={cliente} alt="cliente 1 " />
           </div>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className="bg-azul-claro">
           <div className="centrado ">
             <img className="brands-width" src={cliente2} alt="cliente 2 " />
           </div>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className="bg-azul-claro">
           <div className="centrado ">
             <img className="brands-width" src={cliente3} alt="cliente 3 " />
           </div>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className="bg-azul-claro">
           <div className="centrado ">
             <img className="brands-width" src={cliente4} alt="cliente 4 " />
           </div>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className="bg-azul-claro">
           <div className="centrado ">
             <img className="brands-width" src={cliente5} alt="cliente 5 " />
           </div>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className="bg-azul-claro">
           <div className="centrado ">
             <img className="brands-width" src={cliente6} alt="cliente 6 " />
           </div>

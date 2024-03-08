@@ -2,7 +2,10 @@ const DondeEncontrarnos = () => {
   return (
     <div className="mb-5 ">
       <div className="text-center text-black">
-        <h3 className="text-center text-dark py-5">
+        <h3
+          className="text-center text-dark py-5"
+          style={{ fontSize: "26px", fontWeight: "bold" }}
+        >
           {" "}
           ¿DÓNDE NOS PODES ENCONTRAR?{" "}
         </h3>
