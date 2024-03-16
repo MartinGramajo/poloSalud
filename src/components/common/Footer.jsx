@@ -1,6 +1,8 @@
 import { Image, Nav } from "react-bootstrap";
 import logoNuevo from "../../assets/img/logo-nuevo.png";
 import { NavLink } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faInstagram, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 export default function Footer() {
   return (
@@ -42,6 +44,34 @@ export default function Footer() {
                   Atención Horaria: <br /> lunes a viernes 9:00 a 18:00 <br />
                   sábados 09:00 a 13:00
                 </p>
+              </li>
+              <li className="">
+                <div className="">
+                  <div>
+                    <a
+                      href="https://www.instagram.com/polo_salud?igsh=eGMxaGNyOW05c2Fr"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <FontAwesomeIcon
+                        style={{ fontSize: "40px" }}
+                        className="mx-3 color-azul"
+                        icon={faInstagram}
+                      />
+                    </a>
+                    <a
+                      href="https://www.linkedin.com/company/polo-salud/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <FontAwesomeIcon
+                        style={{ fontSize: "40px" }}
+                        className="mx-3 color-azul"
+                        icon={faLinkedin}
+                      />
+                    </a>
+                  </div>
+                </div>
               </li>
             </ul>
           </div>

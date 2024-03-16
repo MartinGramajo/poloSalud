@@ -5,7 +5,7 @@ const EmpresaContenido = () => {
   return (
     <section className="container ">
       <div className="row">
-        <div className="col-md-12 col-lg-4 color-morado-fondo my-5">
+        <div className="col-md-12 col-lg-4 my-5">
           <article className="text-center">
             <Image
               className="py-4 "
@@ -15,15 +15,15 @@ const EmpresaContenido = () => {
             />
           </article>
           <h6
-            className="text-white"
+            className="text-black"
             style={{ fontSize: "26px", fontWeight: "bold" }}
           >
             María Lujan Arias <br /> Osteópata D.O.{" "}
           </h6>
-          <h6 className="text-white" style={{ fontSize: "16px" }}>
+          <h6 className="text-black" style={{ fontSize: "16px" }}>
             Miembro del registro de osteópatas de España MROE 783
           </h6>
-          <h6 className="text-white py-4" style={{ fontSize: "16px" }}>
+          <h6 className="text-black  py-4" style={{ fontSize: "16px" }}>
             En osteopatía equina, trato sobretodo caballos de Polo y Salto. Me
             focalizo en que puedan: mantener su salud ante la demanda física
             propia de la disciplina extender su vida deportiva, disminuyendo el

@@ -1,5 +1,5 @@
 import { Image } from "react-bootstrap";
-import bannerServicios from "../assets/img/CABALLO4.png";
+import bannerServicios from "../assets/img/CABALLO6.png";
 import bannerServiciosCuadrado from "../assets/img/CABALLOCUADRADO4.png";
 
 const BannerServicios = () => {
@@ -17,7 +17,7 @@ const BannerServicios = () => {
         <div>
           <Image
             className="py-4"
-            src={bannerServiciosCuadrado}
+            src={bannerServicios}
             fluid
             alt="inicio banner"
           />

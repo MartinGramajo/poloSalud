@@ -4,10 +4,10 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const PorqueElegirPolo = () => {
   return (
     <section className=" bg-white">
-      <div className="container pt-5">
+      <div className="container">
         <div className="row  text-center my-5 text-dark">
           <h1
-            className="text-center text-dark pt-5"
+            className="text-center text-dark "
             style={{ fontSize: "26px", fontWeight: "bold" }}
           >
             {" "}

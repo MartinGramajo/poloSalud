@@ -1,6 +1,7 @@
 import Brands from "../components/Brands";
 import ContenidoInicialHome from "../components/ContenidoInicialHome";
 import DondeEncontrarnos from "../components/DondeEncontrarnos";
+import MapComponent from "../components/MapComponent";
 import NuestrosRecursos from "../components/NuestrosRecursos";
 import PorqueElegirPolo from "../components/PorqueElegirPolo";
 import PorqueElegirPolo2 from "../components/PorqueElegirPolo2";
@@ -22,6 +23,12 @@ const Home = () => {
         </div>
       </div>
       <NuestrosRecursos />
+      <div className="text-center">
+        <h1 style={{ fontSize: "26px", fontWeight: "bold" }} className="pt-5">
+          Lorem ipsum dolor sit amet
+        </h1>
+      </div>
+      <MapComponent />
       <PorqueElegirPolo />
       <PorqueElegirPolo2 />
       <DondeEncontrarnos />

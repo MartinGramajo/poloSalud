@@ -13,7 +13,7 @@ const Contacto = () => {
         <div>
           <Image
             className="py-4"
-            src={bannerInicioCuadrado}
+            src={bannerInicio}
             fluid
             alt="inicio banner"
           />

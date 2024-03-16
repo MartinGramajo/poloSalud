@@ -20,8 +20,8 @@ const ContenidoInicialHome = () => {
         </article>
         <article className="d-md-none d-block">
           <Image
-            className="py-4"
-            src={bannerInicioCuadrado}
+            className="pb-4 "
+            src={bannerInicio}
             fluid
             alt="inicio banner"
           />
