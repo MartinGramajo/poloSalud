@@ -12,7 +12,13 @@ const TextBlock = ({ content, colorTheme }) => (
       <p>{content.content}</p>
     </div>
     <div className="text-center">
-      <a href={content.enlace} target="_blank" rel="noopener noreferrer">
+      <a
+        style={{ fontSize: "16px" }}
+        className=""
+        href={content.enlace}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         ver mas
       </a>
     </div>

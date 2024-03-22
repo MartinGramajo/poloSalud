@@ -2,7 +2,6 @@ import React from "react";
 import ModalesA from "../components/ModalesA";
 import ModalesB from "../components/ModalesB";
 import bannerInicio from "../assets/img/CABALLO2.png";
-import bannerInicioCuadrado from "../assets/img/CABALLOCUADRADO2.png";
 import { Image } from "react-bootstrap";
 import ModalesC from "../components/ModalesC";
 
