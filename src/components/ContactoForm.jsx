@@ -49,7 +49,7 @@ export default function ContactoForm() {
         noValidate
         validated={validated}
         onSubmit={sendEmail}
-        className="mx-auto form mb-5 p-2 "
+        className="mx-auto  mb-5 p-2 "
       >
         <div>
           <div className="card-body">
@@ -57,7 +57,7 @@ export default function ContactoForm() {
               <Form.Group
                 className=""
                 as={Col}
-                md="12"
+                md="6"
                 controlId="validationCustom03"
               >
                 <Form.Label className="text-black-50 tamaño-medio">
@@ -68,9 +68,7 @@ export default function ContactoForm() {
                   Ingrese su nombre completo por favor.
                 </Form.Control.Feedback>
               </Form.Group>
-            </Row>
-            <Row>
-              <Form.Group as={Col} md="12" controlId="validationCustom04">
+              <Form.Group as={Col} md="6" controlId="validationCustom04">
                 <Form.Label className="text-black-50 mt-2 tamaño-medio">
                   Whatsapp*
                 </Form.Label>
@@ -84,7 +82,9 @@ export default function ContactoForm() {
                   Ingrese su número de whatsapp completo por favor.
                 </Form.Control.Feedback>
               </Form.Group>
-              <Form.Group as={Col} md="12" controlId="validationCustom03">
+            </Row>
+            <Row>
+              <Form.Group as={Col} md="6" controlId="validationCustom03">
                 <Form.Label className="text-black-50 mt-2 tamaño-medio">
                   Email*
                 </Form.Label>
@@ -93,24 +93,21 @@ export default function ContactoForm() {
                   Ingrese su Email por favor.
                 </Form.Control.Feedback>
               </Form.Group>
-            </Row>
-            <Row className="mb-4">
-              <Form.Group as={Col} md="12" controlId="validationCustom03">
+              <Form.Group as={Col} md="6" controlId="validationCustom03">
                 <Form.Label className="text-black-50 mt-2  tamaño-medio">
                   Consulta
                 </Form.Label>
                 <InputGroup>
                   <Form.Control className="mb-2" as="textarea" name="msj" />
                 </InputGroup>
-                <span className="mt-1 text-black-50 tamaño-medio">
-                  * Campos obligatorios
-                </span>
               </Form.Group>
             </Row>
           </div>
         </div>
-
-        <div className="d-flex justify-content-center ">
+        <span className="mt-1 text-black-50 tamaño-medio ">
+          * Campos obligatorios
+        </span>
+        <div className="d-flex justify-content-center pt-5">
           <Button
             className="w-25 p-2 border-0 text-white color-btn-fondo"
             size="sm"

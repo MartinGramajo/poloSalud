@@ -1,7 +1,8 @@
-import { Container, Nav, Navbar } from "react-bootstrap";
+import { Container, Image, Nav, Navbar } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
-import logoNuevo from "../../assets/img/logo-nuevo.png";
-
+import logoNuevo from "../../assets/img/logoBlanco.png";
+import linken from "../../assets/img/linken.png";
+import insta from "../../assets/img/insta.png";
 const NavReact = () => {
   function cerrar() {
     let navbar = document.querySelector(".navbar-toggler");
@@ -75,6 +76,38 @@ const NavReact = () => {
               >
                 CONTACTO
               </Nav.Link>
+              <section className="ms-auto d-flex">
+                <div className="mx-2">
+                  <a
+                    href="https://www.instagram.com/polo_salud?igsh=eGMxaGNyOW05c2Fr"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {" "}
+                    <Image
+                      className="iconos-nav"
+                      src={insta}
+                      alt="instagram"
+                      fluid
+                    />
+                  </a>
+                </div>
+                <div className="mx-2">
+                  <a
+                    href="https://www.linkedin.com/company/polo-salud/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {" "}
+                    <Image
+                      className="iconos-nav"
+                      src={linken}
+                      alt="linken"
+                      fluid
+                    />
+                  </a>
+                </div>
+              </section>
             </Nav>
           </Navbar.Collapse>
         </Container>

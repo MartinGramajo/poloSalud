@@ -5,14 +5,14 @@ const Servicios = () => {
   return (
     <div>
       <BannerServicios />
-      <article className="container">
-        <div className="d-flex justify-content-center py-4">
+      <article className="container" style={{ textAlign: "start" }}>
+        <div className=" py-4">
           <h1 style={{ fontSize: "26px", fontWeight: "bold" }}>
             {" "}
             Servicios de Vanguardia para el Bienestar del Caballo de Polo
           </h1>
         </div>
-        <div className="text-center">
+        <div>
           <h5 style={{ fontSize: "18px" }}>
             {" "}
             Explora nuestra oferta exclusiva de servicios, donde la ciencia y la

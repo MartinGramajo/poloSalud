@@ -80,7 +80,7 @@ body {
   }
 }
 .tamaño-logo {
-  width: 100px;
+  width: 120px;
 }
 
 @media (max-width: 800px) {
@@ -159,7 +159,7 @@ body {
 }
 
 .brands-width {
-  width: 220px !important;
+  width: 300px !important;
 }
 
 .swiper {
@@ -297,10 +297,139 @@ body {
 
 /* footer */
 .tamaño-logo-footer {
-  width: 150px !important;
+  width: 180px !important;
 }
 
 /* google image */
 .google-maps {
   width: 450px;
+}
+
+.iconos-nav {
+  width: 30px;
+  margin-top: 5px;
+}
+
+.cardContainer {
+  display: inline-block;
+  margin: 20px;
+  font-family: sans-serif;
+  font-size: 12px;
+  position: relative;
+  -webkit-box-shadow: 0px 1px 35px 0px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 1px 35px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 1px 35px 0px rgba(0, 0, 0, 0.3);
+  width: 600px;
+  height: 500px;
+}
+
+@media (max-width: 768px) {
+  .cardContainer {
+    width: 100% !important;
+    height: 600px !important;
+    margin: 0px !important;
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+  }
+}
+
+.thumbnailContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 40%;
+  overflow: hidden;
+  font-size: 12px;
+}
+
+.thumbnail {
+  width: 100%;
+  height: 100%;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  transition: all 500ms linear;
+}
+
+.thumbnailContainer:hover .thumbnail {
+  transform: scale(1.5);
+}
+
+.dateStamp {
+  color: white;
+  border-radius: 50%;
+  position: absolute;
+  width: 55px;
+  height: 55px;
+  top: 20px;
+  right: 20px;
+  padding-top: 8px;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.dateStamp .day {
+  font-size: 12px;
+}
+.dateStamp .month {
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.category {
+  color: white;
+  position: absolute;
+  top: 174px;
+  left: 0;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .category {
+    color: white;
+    position: absolute;
+    top: 204px;
+    left: 0;
+    text-transform: uppercase;
+    margin: 0;
+  }
+}
+
+.category > span {
+  padding: 10px 15px;
+}
+
+.timeCreated {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: #999;
+  padding: 8px 12px;
+}
+
+.numComments {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: #999;
+  padding: 8px 12px;
+}
+
+.textBlock {
+  position: absolute;
+  width: 100%;
+  height: 50%;
+  bottom: 0;
+  padding: 0px 10px;
+}
+
+.paragraphContainer {
+  line-height: 1.6;
+  height: 50%;
+  width: 100%;
 }

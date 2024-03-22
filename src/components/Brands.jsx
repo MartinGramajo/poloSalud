@@ -6,12 +6,18 @@ import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 
-import cliente from "../assets/img/proveedor1.jpg";
-import cliente2 from "../assets/img/proveedor2.png";
-import cliente3 from "../assets/img/proveedor3.png";
-import cliente4 from "../assets/img/proveedor4.jpg";
-import cliente5 from "../assets/img/proveedor5.png";
-import cliente6 from "../assets/img/proveedor6.png";
+import cliente from "../assets/img/slider0.1.png";
+import cliente2 from "../assets/img/slider1.png";
+import cliente3 from "../assets/img/slider2.png";
+import cliente4 from "../assets/img/slider3.png";
+import cliente5 from "../assets/img/slider4.png";
+import cliente6 from "../assets/img/slider5.png";
+import cliente7 from "../assets/img/slider6.png";
+import cliente8 from "../assets/img/slider7.png";
+import cliente9 from "../assets/img/slider8.png";
+import cliente10 from "../assets/img/slider9.png";
+import cliente11 from "../assets/img/slider10.png";
+import cliente12 from "../assets/img/slider11.png";
 
 // import required modules
 import {
@@ -21,14 +27,9 @@ import {
   Pagination,
 } from "swiper/modules";
 
-export default function Brands({ title }) {
+export default function Brands() {
   return (
     <>
-      <div className="text-center ">
-        <h1 style={{ fontSize: "26px", fontWeight: "bold" }} className=" pt-5">
-          {title}
-        </h1>
-      </div>
       <Swiper
         effect={"coverflow"}
         grabCursor={true}
@@ -52,34 +53,64 @@ export default function Brands({ title }) {
         modules={[Autoplay, EffectCoverflow, Pagination, Navigation]}
         className="mySwiper"
       >
-        <SwiperSlide className="bg-azul-claro">
+        <SwiperSlide>
           <div className="centrado ">
             <img className="brands-width" src={cliente} alt="cliente 1 " />
           </div>
         </SwiperSlide>
-        <SwiperSlide className="bg-azul-claro">
+        <SwiperSlide>
           <div className="centrado ">
             <img className="brands-width" src={cliente2} alt="cliente 2 " />
           </div>
         </SwiperSlide>
-        <SwiperSlide className="bg-azul-claro">
+        <SwiperSlide>
           <div className="centrado ">
             <img className="brands-width" src={cliente3} alt="cliente 3 " />
           </div>
         </SwiperSlide>
-        <SwiperSlide className="bg-azul-claro">
+        <SwiperSlide>
           <div className="centrado ">
             <img className="brands-width" src={cliente4} alt="cliente 4 " />
           </div>
         </SwiperSlide>
-        <SwiperSlide className="bg-azul-claro">
+        <SwiperSlide>
           <div className="centrado ">
             <img className="brands-width" src={cliente5} alt="cliente 5 " />
           </div>
         </SwiperSlide>
-        <SwiperSlide className="bg-azul-claro">
+        <SwiperSlide>
           <div className="centrado ">
             <img className="brands-width" src={cliente6} alt="cliente 6 " />
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="centrado ">
+            <img className="brands-width" src={cliente7} alt="cliente 1 " />
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="centrado ">
+            <img className="brands-width" src={cliente8} alt="cliente 2 " />
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="centrado ">
+            <img className="brands-width" src={cliente9} alt="cliente 3 " />
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="centrado ">
+            <img className="brands-width" src={cliente10} alt="cliente 4 " />
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="centrado ">
+            <img className="brands-width" src={cliente11} alt="cliente 5 " />
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="centrado ">
+            <img className="brands-width" src={cliente12} alt="cliente 6 " />
           </div>
         </SwiperSlide>
       </Swiper>

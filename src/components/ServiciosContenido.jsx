@@ -1,8 +1,8 @@
 const ServiciosContenido = () => {
   return (
-    <section className="container text-center">
+    <section className="container " style={{ textAlign: "start" }}>
       <div>
-        <div className="d-flex justify-content-center py-4">
+        <div className=" py-4">
           <h2 style={{ fontSize: "26px", fontWeight: "bold" }}>
             {" "}
             Osteopatía equina al servicio de la caballada:
@@ -18,7 +18,7 @@ const ServiciosContenido = () => {
       </div>
       <div className="">
         <div>
-          <div className="d-flex my-2 justify-content-center">
+          <div className="d-flex my-2 ">
             <h2 style={{ fontSize: "26px", fontWeight: "bold" }}>
               Para ofrecer estos servicios se utilizan técnicas comprendidas
               dentro de la osteopatía equina, a saber:
@@ -39,7 +39,7 @@ const ServiciosContenido = () => {
             </h5>
           </div>
           <div>
-            <div className="d-flex justify-content-center">
+            <div className="">
               <h2 style={{ fontSize: "26px", fontWeight: "bold" }}>
                 Ventajas de los servicios propuestos{" "}
               </h2>
