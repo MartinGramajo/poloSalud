@@ -1,8 +1,9 @@
 import { Container, Image, Nav, Navbar } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
-import logoNuevo from "../../assets/img/logoBlanco.png";
+import logoNuevo from "../../assets/img/logo-blanco.png";
 import linken from "../../assets/img/linken.png";
 import insta from "../../assets/img/insta.png";
+
 const NavReact = () => {
   function cerrar() {
     let navbar = document.querySelector(".navbar-toggler");

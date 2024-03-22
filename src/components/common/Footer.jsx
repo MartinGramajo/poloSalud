@@ -1,8 +1,6 @@
 import { Image, Nav } from "react-bootstrap";
-import logoNuevo from "../../assets/img/logoBlanco.png";
+import logoNuevo from "../../assets/img/logo-blanco.png";
 import { NavLink } from "react-router-dom";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faInstagram, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 export default function Footer() {
   return (
