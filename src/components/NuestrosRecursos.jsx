@@ -4,9 +4,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const NuestrosRecursos = () => {
   return (
     <section className=" color-morado-fondo ">
-      <div className="container py-5">
+      <div className="container ">
         <h1
-          className="text-center text-white pt-5"
+          className="text-center text-white py-4"
           style={{ fontSize: "26px", fontWeight: "bold" }}
         >
           {" "}

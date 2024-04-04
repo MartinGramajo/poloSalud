@@ -24,16 +24,16 @@ const Home = () => {
         <MobileCarouselComponent />
       </div>
 
-      <div className="d-none d-lg-block py-5">
+      <div className="d-none d-lg-block pt-5">
         <BioComponent />
       </div>
-      <div className="d-lg-none d-block py-5">
+      <div className="d-lg-none d-block pt-5">
         <BioComponentMobile />
       </div>
-      <div className="d-none d-lg-block py-5">
+      <div className="d-none d-lg-block ">
         <ImageTextComponent />
       </div>
-      <div className="d-lg-none d-block py-5">
+      <div className="d-lg-none d-block ">
         <ImageTextMobileComponent />
       </div>
 
