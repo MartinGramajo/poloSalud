@@ -1,8 +1,12 @@
+import BioComponent from "../components/BioComponent";
+import BioComponentMobile from "../components/BioComponentMobile";
 import Brands from "../components/Brands";
 import CarouselComponent from "../components/CarouselComponent";
 import CarouselHome from "../components/CarouselComponent";
 import ContenidoInicialHome from "../components/ContenidoInicialHome";
 import DondeEncontrarnos from "../components/DondeEncontrarnos";
+import ImageTextComponent from "../components/ImageTextComponent";
+import ImageTextMobileComponent from "../components/ImageTextMobileComponent";
 import MapComponent from "../components/MapComponent";
 import MobileCarouselComponent from "../components/MobileCarouselComponent";
 import NuestrosRecursos from "../components/NuestrosRecursos";
@@ -12,16 +16,27 @@ import PorqueElegirPolo2 from "../components/PorqueElegirPolo2";
 const Home = () => {
   return (
     <div>
-      <ContenidoInicialHome />
-      <div className="d-none d-lg-block">
+      {/* <ContenidoInicialHome /> */}
+      <div className="d-none d-lg-block py-5">
         <CarouselComponent />
       </div>
-      <div className="d-lg-none d-block">
+      <div className="d-lg-none d-block py-5">
         <MobileCarouselComponent />
       </div>
-      <div className="pt-4">
-        <Brands />
+
+      <div className="d-none d-lg-block py-5">
+        <BioComponent />
       </div>
+      <div className="d-lg-none d-block py-5">
+        <BioComponentMobile />
+      </div>
+      <div className="d-none d-lg-block py-5">
+        <ImageTextComponent />
+      </div>
+      <div className="d-lg-none d-block py-5">
+        <ImageTextMobileComponent />
+      </div>
+
       <NuestrosRecursos />
       <MapComponent />
       <PorqueElegirPolo />
