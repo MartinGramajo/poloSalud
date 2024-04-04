@@ -451,3 +451,11 @@ body {
   background-color: black;
   color: white;
 }
+
+.valor-item {
+  transition: transform 0.2s ease-in-out;
+}
+
+.valor-item:hover {
+  transform: scale(1.05);
+}

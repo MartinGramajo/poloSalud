@@ -3,20 +3,20 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const NuestrosRecursos = () => {
   return (
-    <section className=" color-morado-fondo ">
-      <div className="container ">
-        <h1
-          className="text-center text-white py-4"
-          style={{ fontSize: "26px", fontWeight: "bold" }}
-        >
-          {" "}
-          VALORES{" "}
-        </h1>
-        <div className="row text-white text-center my-5">
+    <section className="color-morado-fondo">
+      <div className="container">
+        {/* <h1
+            className="text-center text-white py-4"
+            style={{ fontSize: "26px", fontWeight: "bold" }}
+          >
+            {" "}
+            VALORES{" "}
+          </h1> */}
+        <div className="row text-white text-center my-5 py-5">
           <div className="col-12 col-md-12 col-lg-4">
-            <div>
+            <div className="valor-item">
               <FontAwesomeIcon
-                className="iconos-redes fs-1 color-azul  "
+                className="iconos-redes fs-1 color-azul"
                 icon={faCheckDouble}
               />
               <div className="my-4">
@@ -28,9 +28,9 @@ const NuestrosRecursos = () => {
             </div>
           </div>
           <div className="col-12 col-md-12 col-lg-4">
-            <div>
+            <div className="valor-item">
               <FontAwesomeIcon
-                className="iconos-redes fs-1 color-azul "
+                className="iconos-redes fs-1 color-azul"
                 icon={faCheckDouble}
               />
               <div className="my-4">
@@ -42,9 +42,9 @@ const NuestrosRecursos = () => {
             </div>
           </div>
           <div className="col-12 col-md-12 col-lg-4 ">
-            <div>
+            <div className="valor-item">
               <FontAwesomeIcon
-                className="iconos-redes fs-1 color-azul "
+                className="iconos-redes fs-1 color-azul"
                 icon={faCheckDouble}
               />
               <div className="my-4">
