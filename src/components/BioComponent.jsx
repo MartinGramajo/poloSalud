@@ -8,7 +8,7 @@ const BioComponent = () => {
     <div
       style={{
         position: "relative",
-        height: "700px",
+        height: "900px",
         width: "100%",
         overflow: "hidden",
       }}
