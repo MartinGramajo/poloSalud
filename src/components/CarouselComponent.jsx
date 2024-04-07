@@ -78,7 +78,7 @@ const CarouselComponent = () => {
           <div style={{ flex: 1, textAlign: "center" }}>
             {" "}
             {/* Ajustado para centrar el texto */}
-            <h5 className="lato-regular " style={{ fontSize: "28px" }}>
+            <h5 className="lato-regular " style={{ fontSize: "24px" }}>
               Optimice el rendimiento equino: <br />
               su socio en la excelencia del polo
             </h5>
@@ -102,7 +102,7 @@ const CarouselComponent = () => {
           style={{ height: "300px" }}
         >
           <div style={{ flex: 1, textAlign: "center" }}>
-            <h5 className="lato-regular " style={{ fontSize: "28px" }}>
+            <h5 className="lato-regular " style={{ fontSize: "24px" }}>
               Elevamos el desempeño del Polo <br />a través de un cuidado y
               dedicación exclusivos
             </h5>
@@ -126,7 +126,7 @@ const CarouselComponent = () => {
           style={{ height: "300px" }}
         >
           <div style={{ flex: 1, textAlign: "center" }}>
-            <h5 className="lato-regular " style={{ fontSize: "28px" }}>
+            <h5 className="lato-regular " style={{ fontSize: "24px" }}>
               Polo Salud puede integrarse perfectamente con tu equipo
               <br />
               para mejorar el rendimiento, la salud y el bienestar <br /> de su
@@ -154,7 +154,7 @@ const CarouselComponent = () => {
           <div style={{ flex: 1, textAlign: "center" }}>
             <h5
               style={{
-                fontSize: "28px",
+                fontSize: "24px",
               }}
             >
               Servicios de Osteopatía Equina diseñados para optimizar <br />

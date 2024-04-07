@@ -9,7 +9,6 @@ import cliente from "../assets/img/slider0.1.png";
 import cliente2 from "../assets/img/slider2.png";
 import cliente3 from "../assets/img/slider3.png";
 import cliente4 from "../assets/img/slider8.png";
-import cliente5 from "../assets/img/slider10.png";
 import { Link } from "react-router-dom";
 
 function NextArrow(props) {
