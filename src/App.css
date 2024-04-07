@@ -535,7 +535,7 @@ body {
 
 .ver-mas-btn {
   background-color: transparent;
-  border: 2px solid black;
+  border: 2px solid #ff282d;
   color: black;
   padding: 10px 20px;
   text-decoration: none;
@@ -544,8 +544,8 @@ body {
 }
 
 .ver-mas-btn:hover {
-  background-color: black;
-  color: white;
+  background-color: #ff282d;
+  color: black;
 }
 
 .valor-item {
