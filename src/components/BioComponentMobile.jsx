@@ -1,6 +1,6 @@
 import React from "react";
 import backgroundImage from "../assets/img/slider15.png"; // Ruta de tu imagen de fondo
-import logoNuevo from "../assets/img/logo-blanco.png";
+import logoNuevo from "../assets/img/logo.png";
 import { Link } from "react-router-dom";
 
 const BioComponentMobile = () => {
@@ -31,7 +31,7 @@ const BioComponentMobile = () => {
       <div
         style={{
           position: "absolute",
-          top: "50%",
+          top: "55%",
           left: "10%",
           transform: "translateY(-50%)",
           color: "white",
@@ -39,15 +39,12 @@ const BioComponentMobile = () => {
           maxWidth: "80%", // Ancho máximo de la biografía
         }}
       >
-        <h2>María Lujan Arias</h2>
-        <h3>Osteópata D.O.</h3>
         <p>
-          En osteopatía equina, trato sobretodo caballos de Polo y Salto. Me
-          focalizo en que puedan: mantener su salud ante la demanda física
-          propia de la disciplina, extender su vida deportiva, disminuyendo el
-          porcentaje de lesiones a repetición, y mantener la flexibilidad de su
-          columna vertebral y su musculatura. Ofrezco acompañamiento in situ en
-          las competiciones deportivas.
+          De criarse entre caballos en la provincia de Buenos Aires, a elegir
+          una vida más citadina estudiando abogacía en la UBA y trabajar en el
+          poder judicial al mismo tiempo que comenzaba una carrera de bailarina
+          de danza contemporánea que la hizo mudarse a Europa a los 22 años, es
+          que Maria Luján llegó a la Osteopatía y decidió formarse en ello.
         </p>
         <div className="mt-4">
           <Link to="/quien/soy">
