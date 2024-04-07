@@ -13,11 +13,10 @@ import PorqueElegirPolo2 from "../components/PorqueElegirPolo2";
 const Home = () => {
   return (
     <div>
-      {/* <ContenidoInicialHome /> */}
-      <div className="d-none d-lg-block py-5">
+      <div className="d-none d-lg-block py-5 my-5">
         <CarouselComponent />
       </div>
-      <div className="d-lg-none d-block py-5">
+      <div className="d-lg-none d-block py-5  my-5">
         <MobileCarouselComponent />
       </div>
 

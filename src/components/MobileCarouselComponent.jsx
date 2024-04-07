@@ -81,7 +81,7 @@ const MobileCarouselComponent = () => {
             />
           </div>
           <div className="text-center mt-4">
-            <h5 style={{ fontWeight: "bold", fontSize: "16px" }}>
+            <h5 className="lato-regular" style={{ fontSize: "16px" }}>
               Optimice el rendimiento equino: su socio en la excelencia del polo
             </h5>
             <div className="mt-4">
@@ -101,9 +101,9 @@ const MobileCarouselComponent = () => {
             />
           </div>
           <div className="text-center mt-4">
-            <h5 style={{ fontWeight: "bold", fontSize: "16px" }}>
-              "Elevamos el desempeño del Polo a través de un cuidado y
-              dedicación exclusivos "
+            <h5 className="lato-regular" style={{ fontSize: "16px" }}>
+              Elevamos el desempeño del Polo a través de un cuidado y dedicación
+              exclusivos
             </h5>
 
             <div className="mt-4">
@@ -123,10 +123,10 @@ const MobileCarouselComponent = () => {
             />
           </div>
           <div className="text-center mt-4">
-            <h5 style={{ fontWeight: "bold", fontSize: "16px" }}>
-              "Polo Salud puede integrarse perfectamente con tu equipo para
+            <h5 className="lato-regular" style={{ fontSize: "16px" }}>
+              Polo Salud puede integrarse perfectamente con tu equipo para
               mejorar el rendimiento, la salud y el bienestar de su caballo de
-              polo."
+              polo.
             </h5>
 
             <div className="mt-4">
@@ -145,30 +145,9 @@ const MobileCarouselComponent = () => {
             />
           </div>
           <div className="text-center mt-4">
-            <h5 style={{ fontWeight: "bold", fontSize: "16px" }}>
-              "Servicios de Osteopatía Equina diseñados para optimizar el
-              rendimiento del caballo de Polo y prevenir lesiones"
-            </h5>
-
-            <div className="mt-4">
-              <Link className="" to="/servicios">
-                <button className="ver-mas-btn">Ver más</button>
-              </Link>
-            </div>
-          </div>
-        </div>
-        <div className="d-flex flex-column align-items-center justify-content-center">
-          <div>
-            <img
-              src={cliente5}
-              alt="Imagen"
-              style={{ width: "100%", height: "auto" }}
-            />
-          </div>
-          <div className="text-center mt-4">
-            <h5 style={{ fontWeight: "bold", fontSize: "16px" }}>
-              "Descubra cómo su enfoque único se integra perfectamente con la
-              cultura de su equipo, fomentando la colaboración y la excelencia"
+            <h5 className="lato-regular" style={{ fontSize: "16px" }}>
+              Servicios de Osteopatía Equina diseñados para optimizar el
+              rendimiento del caballo de Polo y prevenir lesiones.
             </h5>
 
             <div className="mt-4">

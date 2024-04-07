@@ -9,7 +9,6 @@ import cliente from "../assets/img/slider0.1.png";
 import cliente2 from "../assets/img/slider2.png";
 import cliente3 from "../assets/img/slider3.png";
 import cliente4 from "../assets/img/slider8.png";
-import cliente5 from "../assets/img/slider10.png";
 
 import { Link } from "react-router-dom";
 
@@ -79,11 +78,8 @@ const CarouselComponent = () => {
           <div style={{ flex: 1, textAlign: "center" }}>
             {" "}
             {/* Ajustado para centrar el texto */}
-            <h5 style={{ fontWeight: "bold", fontSize: "20px" }}>
-              Optimice el rendimiento equino:{" "}
-            </h5>
-            <h5 style={{ fontWeight: "bold", fontSize: "20px" }}>
-              {" "}
+            <h5 className="lato-regular " style={{ fontSize: "28px" }}>
+              Optimice el rendimiento equino: <br />
               su socio en la excelencia del polo
             </h5>
             <div className="mt-4">
@@ -106,14 +102,11 @@ const CarouselComponent = () => {
           style={{ height: "300px" }}
         >
           <div style={{ flex: 1, textAlign: "center" }}>
-            {" "}
-            {/* Ajustado para centrar el texto */}
-            <h5 style={{ fontWeight: "bold", fontSize: "20px" }}>
-              "Elevamos el desempeño del Polo{" "}
+            <h5 className="lato-regular " style={{ fontSize: "28px" }}>
+              Elevamos el desempeño del Polo <br />a través de un cuidado y
+              dedicación exclusivos
             </h5>
-            <h5 style={{ fontWeight: "bold", fontSize: "20px" }}>
-              a través de un cuidado y dedicación exclusivos "
-            </h5>
+
             <div className="mt-4">
               <Link className="" to="/servicios">
                 <button className="ver-mas-btn">Ver más</button>
@@ -133,15 +126,13 @@ const CarouselComponent = () => {
           style={{ height: "300px" }}
         >
           <div style={{ flex: 1, textAlign: "center" }}>
-            {" "}
-            {/* Ajustado para centrar el texto */}
-            <h5 style={{ fontWeight: "bold", fontSize: "20px" }}>
-              "Polo Salud puede integrarse perfectamente con tu equipo
+            <h5 className="lato-regular " style={{ fontSize: "28px" }}>
+              Polo Salud puede integrarse perfectamente con tu equipo
+              <br />
+              para mejorar el rendimiento, la salud y el bienestar <br /> de su
+              caballo
             </h5>
-            <h5 style={{ fontWeight: "bold", fontSize: "20px" }}>
-              para mejorar el rendimiento, la salud y el bienestar de su caballo
-              de polo."
-            </h5>
+
             <div className="mt-4">
               <Link className="" to="/servicios">
                 <button className="ver-mas-btn">Ver más</button>
@@ -161,15 +152,15 @@ const CarouselComponent = () => {
           style={{ height: "300px" }}
         >
           <div style={{ flex: 1, textAlign: "center" }}>
-            {" "}
-            {/* Ajustado para centrar el texto */}
-            <h5 style={{ fontWeight: "bold", fontSize: "20px" }}>
-              "Servicios de Osteopatía Equina diseñados{" "}
+            <h5
+              style={{
+                fontSize: "28px",
+              }}
+            >
+              Servicios de Osteopatía Equina diseñados para optimizar <br />
+              el rendimiento del caballo de Polo y prevenir lesiones
             </h5>
-            <h5 style={{ fontWeight: "bold", fontSize: "20px" }}>
-              para optimizar el rendimiento del caballo de Polo y prevenir
-              lesiones"
-            </h5>
+
             <div className="mt-4">
               <Link className="" to="/servicios">
                 <button className="ver-mas-btn">Ver más</button>
@@ -179,34 +170,6 @@ const CarouselComponent = () => {
           <div style={{ flex: 1 }}>
             <img
               src={cliente4}
-              alt="Imagen"
-              style={{ width: "100%", height: "auto" }}
-            />
-          </div>
-        </div>
-        <div
-          className="d-flex justify-content-center align-items-center"
-          style={{ height: "300px" }}
-        >
-          <div style={{ flex: 1, textAlign: "center" }}>
-            {" "}
-            {/* Ajustado para centrar el texto */}
-            <h5 style={{ fontWeight: "bold", fontSize: "20px" }}>
-              "Descubra cómo su enfoque único se integra perfectamente.{" "}
-            </h5>
-            <h5 style={{ fontWeight: "bold", fontSize: "20px" }}>
-              con la cultura de su equipo, fomentando la colaboración y la
-              excelencia"
-            </h5>
-            <div className="mt-4">
-              <Link className="" to="/servicios">
-                <button className="ver-mas-btn">Ver más</button>
-              </Link>
-            </div>
-          </div>
-          <div style={{ flex: 1 }}>
-            <img
-              src={cliente5}
               alt="Imagen"
               style={{ width: "100%", height: "auto" }}
             />

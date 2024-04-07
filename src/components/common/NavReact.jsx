@@ -1,6 +1,6 @@
 import { Container, Image, Nav, Navbar } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
-import logoNuevo from "../../assets/img/logo-blanco.png";
+import logoNuevo from "../../assets/img/logo.png";
 import linken from "../../assets/img/linken.png";
 import insta from "../../assets/img/insta.png";
 
@@ -17,7 +17,7 @@ const NavReact = () => {
         expand="lg"
         variant="dark"
         sticky="top"
-        className="color-morado-fondo"
+        className=" bg-dark"
       >
         <Container>
           <Navbar.Brand href="/">
