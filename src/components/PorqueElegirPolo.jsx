@@ -21,7 +21,7 @@ const PorqueElegirPolo = () => {
           <div className="col-12 col-md-12 col-lg-4 ">
             <div>
               <FontAwesomeIcon
-                className="iconos-redes fs-1 color-azul-claro "
+                className="iconos-redes fs-1 color-rojo"
                 icon={faCheckCircle}
               />
               <div className="my-4">
@@ -35,7 +35,7 @@ const PorqueElegirPolo = () => {
           <div className="col-12 col-md-12 col-lg-4">
             <div>
               <FontAwesomeIcon
-                className="iconos-redes fs-1 color-azul-claro "
+                className="iconos-redes fs-1  color-rojo"
                 icon={faCheckCircle}
               />
               <div className="my-4">
@@ -49,7 +49,7 @@ const PorqueElegirPolo = () => {
           <div className="col-12 col-md-12 col-lg-4 ">
             <div>
               <FontAwesomeIcon
-                className="iconos-redes fs-1 color-azul-claro "
+                className="iconos-redes fs-1  color-rojo "
                 icon={faCheckCircle}
               />
               <div className="my-4">

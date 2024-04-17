@@ -140,8 +140,8 @@ body {
   position: static;
   width: 100%;
   height: 4px;
-  background-color: #1f9ba3;
-  color: #1f9ba3;
+  background-color: #ff282d;
+  color: #ff282d;
   content: "";
   opacity: 0;
   transition:

@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const NuestrosRecursos = () => {
   return (
-    <section className="color-morado-fondo">
+    <section className="bg-color-rojo">
       <div className="container">
         {/* <h1
             className="text-center text-white py-4"
@@ -16,7 +16,7 @@ const NuestrosRecursos = () => {
           <div className="col-12 col-md-12 col-lg-4">
             <div className="valor-item">
               <FontAwesomeIcon
-                className="iconos-redes fs-1 color-azul"
+                className="iconos-redes fs-1 color-gris"
                 icon={faCheckDouble}
               />
               <div className="my-4">
@@ -30,7 +30,7 @@ const NuestrosRecursos = () => {
           <div className="col-12 col-md-12 col-lg-4">
             <div className="valor-item">
               <FontAwesomeIcon
-                className="iconos-redes fs-1 color-azul"
+                className="iconos-redes fs-1 color-gris"
                 icon={faCheckDouble}
               />
               <div className="my-4">
@@ -44,7 +44,7 @@ const NuestrosRecursos = () => {
           <div className="col-12 col-md-12 col-lg-4 ">
             <div className="valor-item">
               <FontAwesomeIcon
-                className="iconos-redes fs-1 color-azul"
+                className="iconos-redes fs-1 color-gris"
                 icon={faCheckDouble}
               />
               <div className="my-4">

@@ -193,7 +193,7 @@ const ContenidoNovedades = () => {
             <Card key={index} data={data} />
           ))}
         </article>
-        <article className="mb-5">
+        {/* <article className="mb-5">
           <h2 style={{ fontSize: "26px", fontWeight: "bold" }}>
             ¿Cómo se desarrolla una sesión de Osteopatía equina?
           </h2>
@@ -209,9 +209,9 @@ const ContenidoNovedades = () => {
             procederá a las manipulaciones y ajustes de la zona a tratar. <br />{" "}
             Las sesiones generalmente duran una hora y se realizan in situ.
           </h5>
-        </article>
+        </article> */}
       </article>
-      <article className="mb-5">
+      {/* <article className="mb-5">
         <h2 style={{ fontSize: "26px", fontWeight: "bold" }}>
           ¿Qué caballos pueden beneficiarse de este tipo de tratamiento?{" "}
         </h2>
@@ -221,8 +221,8 @@ const ContenidoNovedades = () => {
           alto rendimiento, así como también caballos de centros de
           equinoterapia, cabalgatas y uso doméstico.{" "}
         </h5>
-      </article>
-      <article className="my-4">
+      </article> */}
+      {/* <article className="my-4">
         <h2 style={{ fontSize: "26px", fontWeight: "bold" }}>
           ¿Cómo me doy cuenta si mi caballo se puede beneficiar de la
           terapéutica?{" "}
@@ -242,7 +242,7 @@ const ContenidoNovedades = () => {
           ● Lesiones a repetición en tendones y ligamentos <br />● Principios de
           cólicos a repetición
         </h5>
-      </article>
+      </article> */}
     </div>
   );
 };

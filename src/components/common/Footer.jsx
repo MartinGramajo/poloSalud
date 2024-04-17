@@ -1,10 +1,10 @@
 import { Image, Nav } from "react-bootstrap";
-import logoNuevo from "../../assets/img/logo-blanco.png";
+import logoNuevo from "../../assets/img/logo.png";
 import { NavLink } from "react-router-dom";
 
 export default function Footer() {
   return (
-    <div className=" text-white color-morado-fondo text-white mt-auto ">
+    <div className=" text-white bg-dark text-white mt-auto ">
       <div className="px-4 pt-4 container">
         <div className="row">
           {/* Column1 */}
