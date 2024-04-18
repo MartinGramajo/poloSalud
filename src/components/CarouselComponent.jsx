@@ -10,7 +10,7 @@ import cliente2 from "../assets/img/slider3.png";
 import cliente3 from "../assets/img/slider16.png";
 import cliente4 from "../assets/img/slider8.png";
 
-import { Link } from "react-router-dom";
+import { Link } from "react-scroll";
 
 // function NextArrow(props) {
 //   const { onClick } = props;
@@ -86,7 +86,13 @@ const CarouselComponent = () => {
               cuidado y dedicación exclusivos"
             </h5>
             <div className="mt-4">
-              <Link className="" to="/servicios">
+              <Link
+                className=""
+                to="servicios"
+                spy={true}
+                smooth={true}
+                duration={500}
+              >
                 <button className="ver-mas-btn text-white">
                   CONOCÉ NUESTROS SERVICIOS
                 </button>
@@ -116,7 +122,7 @@ const CarouselComponent = () => {
             </h5>
 
             <div className="mt-4">
-              <Link className="" to="/servicios">
+              <Link to="trabajamos" spy={true} smooth={true} duration={500}>
                 <button className="ver-mas-btn text-white">
                   CONOCÉ CÓMO TRABAJAMOS
                 </button>
@@ -144,7 +150,13 @@ const CarouselComponent = () => {
             </h5>
 
             <div className="mt-4">
-              <Link className="" to="/servicios">
+              <Link
+                className=""
+                to="termografia"
+                spy={true}
+                smooth={true}
+                duration={500}
+              >
                 <button className="ver-mas-btn text-white">
                   CONOCÉ EL USO DE LA CÁMARA TERMOGRÁFICA
                 </button>

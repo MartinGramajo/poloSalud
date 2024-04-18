@@ -23,9 +23,15 @@ const Home = () => {
         <BioComponentMobile />
       </div>
       <div className="d-none d-lg-block ">
-        <ImageTextComponent />
-        <ImageTextComponent2 />
-        <ImageTextComponent3 />
+        <div id="servicios">
+          <ImageTextComponent />
+        </div>
+        <div id="trabajamos">
+          <ImageTextComponent2 />
+        </div>
+        <div id="termografia">
+          <ImageTextComponent3 />
+        </div>
       </div>
       <div className="d-lg-none d-block ">
         <ImageTextMobileComponent />
