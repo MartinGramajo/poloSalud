@@ -5,9 +5,9 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import cliente from "../assets/img/slider0.1.png";
-import cliente2 from "../assets/img/slider2.png";
-import cliente3 from "../assets/img/slider3.png";
+import cliente from "../assets/img/slider15.png";
+import cliente2 from "../assets/img/slider3.png";
+import cliente3 from "../assets/img/slider16.png";
 import cliente4 from "../assets/img/slider8.png";
 
 import { Link } from "react-router-dom";
