@@ -1,30 +1,24 @@
 import { Image } from "react-bootstrap";
-import bannerServicios from "../assets/img/CABALLO4.png";
-import bannerServiciosCuadrado from "../assets/img/CABALLOCUADRADO4.png";
+import bannerServicios from "../assets/img/slider20.png";
+import bannerServiciosCuadrado from "../assets/img/slider20.png";
 const BannerEmpresa = () => {
   return (
-    <div>
-      <div className="d-none d-md-block text-center">
-        <div className="">
-          <Image
-            className="py-4"
-            src={bannerServicios}
-            fluid
-            alt="inicio banner"
-          />
-        </div>
+    <>
+      <div className="bannerContainer d-none d-md-block">
+        <Image
+          src={bannerServicios}
+          className="bannerImage"
+          alt="inicio banner"
+        />
       </div>
-      <div className="d-md-none d-block text-center">
-        <div>
-          <Image
-            className="py-4"
-            src={bannerServicios}
-            fluid
-            alt="inicio banner"
-          />
-        </div>
+      <div className=" d-md-none d-block">
+        <Image
+          src={bannerServiciosCuadrado}
+          className="bannerImage"
+          alt="inicio banner"
+        />
       </div>
-    </div>
+    </>
   );
 };
 

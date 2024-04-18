@@ -53,22 +53,22 @@ const NavReact = () => {
                 SERVICIOS
               </Nav.Link>
 
-              <Nav.Link
+              {/* <Nav.Link
                 to="/galeria"
                 as={NavLink}
                 onClick={cerrar}
                 className="tamaño-medium ms-auto color-blanco mx-xl-2 my-auto nav-links"
               >
                 GALERÍA
-              </Nav.Link>
-              <Nav.Link
+              </Nav.Link> */}
+              {/* <Nav.Link
                 to="/novedades"
                 as={NavLink}
                 onClick={cerrar}
                 className="tamaño-medium ms-auto color-blanco mx-xl-2 my-auto nav-links"
               >
                 NOVEDADES
-              </Nav.Link>
+              </Nav.Link> */}
               <Nav.Link
                 to="/contacto"
                 as={NavLink}

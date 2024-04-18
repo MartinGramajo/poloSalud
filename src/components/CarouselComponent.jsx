@@ -12,51 +12,51 @@ import cliente4 from "../assets/img/slider8.png";
 
 import { Link } from "react-router-dom";
 
-function NextArrow(props) {
-  const { onClick } = props;
-  return (
-    <div
-      className="slick-next"
-      style={{
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-        background: "transparent",
-        color: "black",
-        fontSize: "24px",
-        width: "30px",
-        height: "30px",
-        borderRadius: "50%",
-      }}
-      onClick={onClick}
-    >
-      ❯
-    </div>
-  );
-}
+// function NextArrow(props) {
+//   const { onClick } = props;
+//   return (
+//     <div
+//       className="slick-next"
+//       style={{
+//         display: "flex",
+//         justifyContent: "center",
+//         alignItems: "center",
+//         background: "transparent",
+//         color: "black",
+//         fontSize: "24px",
+//         width: "30px",
+//         height: "30px",
+//         borderRadius: "50%",
+//       }}
+//       onClick={onClick}
+//     >
+//       ❯
+//     </div>
+//   );
+// }
 
-function PrevArrow(props) {
-  const { onClick } = props;
-  return (
-    <div
-      className="slick-prev"
-      style={{
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-        background: "transparent",
-        color: "black",
-        fontSize: "24px",
-        width: "30px",
-        height: "30px",
-        borderRadius: "50%",
-      }}
-      onClick={onClick}
-    >
-      ❮
-    </div>
-  );
-}
+// function PrevArrow(props) {
+//   const { onClick } = props;
+//   return (
+//     <div
+//       className="slick-prev"
+//       style={{
+//         display: "flex",
+//         justifyContent: "center",
+//         alignItems: "center",
+//         background: "transparent",
+//         color: "black",
+//         fontSize: "24px",
+//         width: "30px",
+//         height: "30px",
+//         borderRadius: "50%",
+//       }}
+//       onClick={onClick}
+//     >
+//       ❮
+//     </div>
+//   );
+// }
 const CarouselComponent = () => {
   const settings = {
     dots: true,
@@ -64,8 +64,8 @@ const CarouselComponent = () => {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    nextArrow: <NextArrow />,
-    prevArrow: <PrevArrow />,
+    // nextArrow: <NextArrow />,
+    // prevArrow: <PrevArrow />,
   };
 
   return (
@@ -78,13 +78,18 @@ const CarouselComponent = () => {
           <div style={{ flex: 1, textAlign: "center" }}>
             {" "}
             {/* Ajustado para centrar el texto */}
-            <h5 className="lato-regular " style={{ fontSize: "24px" }}>
-              Optimice el rendimiento equino: <br />
-              su socio en la excelencia del polo
+            <h5
+              className="lato-regular text-white"
+              style={{ fontSize: "24px" }}
+            >
+              "Elevamos el desempeño del Polo <br /> a través de un seguimiento,
+              cuidado y dedicación exclusivos"
             </h5>
             <div className="mt-4">
               <Link className="" to="/servicios">
-                <button className="ver-mas-btn">Ver más</button>
+                <button className="ver-mas-btn text-white">
+                  CONOCÉ NUESTROS SERVICIOS
+                </button>
               </Link>
             </div>
           </div>
@@ -102,14 +107,19 @@ const CarouselComponent = () => {
           style={{ height: "300px" }}
         >
           <div style={{ flex: 1, textAlign: "center" }}>
-            <h5 className="lato-regular " style={{ fontSize: "24px" }}>
-              Elevamos el desempeño del Polo <br />a través de un cuidado y
-              dedicación exclusivos
+            <h5
+              className="lato-regular text-white"
+              style={{ fontSize: "24px" }}
+            >
+              "No sólo tratamos y cuidamos lo que más te importa;
+              <br /> nos convertimos en parte de tu equipo"
             </h5>
 
             <div className="mt-4">
               <Link className="" to="/servicios">
-                <button className="ver-mas-btn">Ver más</button>
+                <button className="ver-mas-btn text-white">
+                  CONOCÉ CÓMO TRABAJAMOS
+                </button>
               </Link>
             </div>
           </div>
@@ -126,50 +136,24 @@ const CarouselComponent = () => {
           style={{ height: "300px" }}
         >
           <div style={{ flex: 1, textAlign: "center" }}>
-            <h5 className="lato-regular " style={{ fontSize: "24px" }}>
-              Polo Salud puede integrarse perfectamente con tu equipo
-              <br />
-              para mejorar el rendimiento, la salud y el bienestar <br /> de su
-              caballo
+            <h5
+              className="lato-regular text-white"
+              style={{ fontSize: "24px" }}
+            >
+              “Transformar lo invisible en visible”
             </h5>
 
             <div className="mt-4">
               <Link className="" to="/servicios">
-                <button className="ver-mas-btn">Ver más</button>
+                <button className="ver-mas-btn text-white">
+                  CONOCÉ EL USO DE LA CÁMARA TERMOGRÁFICA
+                </button>
               </Link>
             </div>
           </div>
           <div style={{ flex: 1 }}>
             <img
               src={cliente3}
-              alt="Imagen"
-              style={{ width: "100%", height: "auto" }}
-            />
-          </div>
-        </div>
-        <div
-          className="d-flex justify-content-center align-items-center"
-          style={{ height: "300px" }}
-        >
-          <div style={{ flex: 1, textAlign: "center" }}>
-            <h5
-              style={{
-                fontSize: "24px",
-              }}
-            >
-              Servicios de Osteopatía Equina diseñados para optimizar <br />
-              el rendimiento del caballo de Polo y prevenir lesiones
-            </h5>
-
-            <div className="mt-4">
-              <Link className="" to="/servicios">
-                <button className="ver-mas-btn">Ver más</button>
-              </Link>
-            </div>
-          </div>
-          <div style={{ flex: 1 }}>
-            <img
-              src={cliente4}
               alt="Imagen"
               style={{ width: "100%", height: "auto" }}
             />

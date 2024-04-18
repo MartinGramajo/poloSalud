@@ -1,43 +1,35 @@
 import BioComponent from "../components/BioComponent";
 import BioComponentMobile from "../components/BioComponentMobile";
 import CarouselComponent from "../components/CarouselComponent";
-import DondeEncontrarnos from "../components/DondeEncontrarnos";
 import ImageTextComponent from "../components/ImageTextComponent";
+import ImageTextComponent2 from "../components/ImageTextComponent2";
+import ImageTextComponent3 from "../components/ImageTextComponent3";
 import ImageTextMobileComponent from "../components/ImageTextMobileComponent";
-import MapComponent from "../components/MapComponent";
 import MobileCarouselComponent from "../components/MobileCarouselComponent";
-import NuestrosRecursos from "../components/NuestrosRecursos";
-import PorqueElegirPolo from "../components/PorqueElegirPolo";
-import PorqueElegirPolo2 from "../components/PorqueElegirPolo2";
 
 const Home = () => {
   return (
     <div>
-      <div className="d-none d-lg-block py-5 my-5">
+      <div className="d-none d-lg-block" style={{ backgroundColor: "#191919" }}>
         <CarouselComponent />
       </div>
-      <div className="d-lg-none d-block py-5  my-5">
+      <div className="d-lg-none d-block" style={{ backgroundColor: "#191919" }}>
         <MobileCarouselComponent />
       </div>
-
-      <div className="d-none d-lg-block pt-5">
+      <div className="d-none d-lg-block ">
         <BioComponent />
       </div>
-      <div className="d-lg-none d-block pt-5">
+      <div className="d-lg-none d-block">
         <BioComponentMobile />
       </div>
       <div className="d-none d-lg-block ">
         <ImageTextComponent />
+        <ImageTextComponent2 />
+        <ImageTextComponent3 />
       </div>
       <div className="d-lg-none d-block ">
         <ImageTextMobileComponent />
       </div>
-
-      <NuestrosRecursos />
-      <MapComponent />
-      <PorqueElegirPolo />
-      <PorqueElegirPolo2 />
-      <DondeEncontrarnos />
     </div>
   );
 };
