@@ -8,7 +8,8 @@ import ImageTextMobileComponent from "../components/ImageTextMobileComponent";
 import ImageTextMobileComponent3 from "../components/ImageTextMobileComponent3";
 import ImageTextMobileComponent2 from "../components/ImageTextMobileComponente2";
 import MobileCarouselComponent from "../components/MobileCarouselComponent";
-import ScrollAnimation from "react-animate-on-scroll";
+import "animate.css";
+
 const Home = () => {
   return (
     <div>
@@ -26,38 +27,30 @@ const Home = () => {
         <BioComponentMobile />
       </div>
       <div className="d-none d-lg-block ">
-        <ScrollAnimation animateIn="fadeIn">
-          <div id="servicios">
-            <ImageTextComponent />
-          </div>
-        </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeIn">
-          <div id="trabajamos">
-            <ImageTextComponent2 />
-          </div>
-        </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeIn">
-          <div id="termografia">
-            <ImageTextComponent3 />
-          </div>
-        </ScrollAnimation>
+        <div id="servicios" className="animate__animated   animate__fadeIn">
+          <ImageTextComponent />
+        </div>
+
+        <div id="trabajamos" className="animate__animated   animate__fadeIn">
+          <ImageTextComponent2 />
+        </div>
+
+        <div id="termografia" className="animate__animated   animate__fadeIn">
+          <ImageTextComponent3 />
+        </div>
       </div>
       <div className="d-lg-none d-block ">
-        <ScrollAnimation animateIn="fadeIn">
-          <div id="servicios">
-            <ImageTextMobileComponent />
-          </div>
-        </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeIn">
-          <div id="trabajamos">
-            <ImageTextMobileComponent2 />
-          </div>
-        </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeIn">
-          <div id="termografia">
-            <ImageTextMobileComponent3 />
-          </div>
-        </ScrollAnimation>
+        <div id="servicios" className="animate__animated   animate__fadeIn">
+          <ImageTextMobileComponent />
+        </div>
+
+        <div id="trabajamos" className="animate__animated   animate__fadeIn">
+          <ImageTextMobileComponent2 />
+        </div>
+
+        <div id="termografia" className="animate__animated   animate__fadeIn">
+          <ImageTextMobileComponent3 />
+        </div>
       </div>
     </div>
   );
