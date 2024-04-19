@@ -1,7 +1,7 @@
 import { Image } from "react-bootstrap";
 import ContactoContenido from "../components/ContactoContenido";
-import bannerServicios from "../assets/img/CABALLO2.png";
-import bannerServiciosCuadrada from "../assets/img/CABALLOCUADRADO2.png";
+import bannerServicios from "../assets/img/slider10.png";
+import bannerServiciosCuadrada from "../assets/img/slider10.png";
 
 const Contacto = () => {
   return (

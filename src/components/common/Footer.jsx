@@ -1,5 +1,5 @@
 import { Image, Nav } from "react-bootstrap";
-import logoNuevo from "../../assets/img/logo.png";
+import logoNuevo from "../../assets/img/logoblanco.png";
 import { NavLink } from "react-router-dom";
 import linken from "../../assets/img/linken.png";
 import insta from "../../assets/img/insta.png";
@@ -12,7 +12,7 @@ export default function Footer() {
           {/* Column1 */}
           <div className="col-12 col-lg-4 text-md-start d-flex justify-content-lg-start justify-content-center mx-auto mt-3 mt-md-0 ">
             <ul className="list-unstyled">
-              <li className="text-center my-5">
+              <li className="text-center pt-3">
                 <Image
                   className="tamaño-logo-footer"
                   src={logoNuevo}
@@ -26,8 +26,8 @@ export default function Footer() {
           <div className="col-12 col-lg-4 text-md-start d-flex justify-content-center mx-auto  ">
             <ul className="list-unstyled my-5">
               <li>
-                <section className="justify-content-center d-flex">
-                  <div className="mx-2">
+                <section className="justify-content-center d-flex ">
+                  <div className="mx-2 ">
                     <a
                       href="https://www.instagram.com/polo_salud?igsh=eGMxaGNyOW05c2Fr"
                       target="_blank"

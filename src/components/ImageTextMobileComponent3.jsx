@@ -1,20 +1,22 @@
 import React from "react";
-import backgroundImage from "../assets/img/termo.png";
 
-const ImageTextComponent3 = () => {
+import backgroundImage from "../assets/img/termo.png";
+import { Link } from "react-router-dom";
+
+const ImageTextMobileComponent3 = () => {
   return (
-    <div className="d-flex align-items-center">
-      {/* Imagen cuadrada a la izquierda */}
-      <div style={{ width: "50%", marginRight: "20px" }}>
+    <div className="d-flex flex-column align-items-center">
+      {/* Imagen arriba */}
+      <div style={{ marginBottom: "20px" }}>
         <img
           src={backgroundImage}
           alt="Imagen"
-          style={{ width: "100%", height: "100%", objectFit: "cover" }}
+          style={{ width: "100%", height: "auto", objectFit: "cover" }}
         />
       </div>
 
-      {/* Texto a la derecha */}
-      <div className="container" style={{ width: "50%" }}>
+      {/* Texto abajo */}
+      <div className="container" style={{ width: "100%" }}>
         <h3>CONOCÉ EL USO DE LA TERMOOGRAFÍA EN LOS EQUINOS</h3>
         <p>
           La termografía es un método confiable para detectar y medir
@@ -37,4 +39,4 @@ const ImageTextComponent3 = () => {
   );
 };
 
-export default ImageTextComponent3;
+export default ImageTextMobileComponent3;

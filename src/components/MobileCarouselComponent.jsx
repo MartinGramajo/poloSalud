@@ -8,62 +8,17 @@ import "slick-carousel/slick/slick-theme.css";
 import cliente from "../assets/img/slider0.1.png";
 import cliente2 from "../assets/img/slider2.png";
 import cliente3 from "../assets/img/slider3.png";
-import cliente4 from "../assets/img/slider8.png";
 import { Link } from "react-router-dom";
-
-// function NextArrow(props) {
-//   const { onClick } = props;
-//   return (
-//     <div
-//       className="slick-next"
-//       style={{
-//         display: "flex",
-//         justifyContent: "center",
-//         alignItems: "center",
-//         background: "transparent",
-//         color: "black",
-//         fontSize: "24px",
-//         width: "20px",
-//         height: "30px",
-//         borderRadius: "50%",
-//       }}
-//       onClick={onClick}
-//     >
-//       ❯
-//     </div>
-//   );
-// }
-
-// function PrevArrow(props) {
-//   const { onClick } = props;
-//   return (
-//     <div
-//       className="slick-prev"
-//       style={{
-//         display: "flex",
-//         justifyContent: "center",
-//         alignItems: "center",
-//         background: "transparent",
-//         color: "black",
-//         fontSize: "24px",
-//         width: "10px",
-//         height: "30px",
-//         borderRadius: "50%",
-//       }}
-//       onClick={onClick}
-//     >
-//       ❮
-//     </div>
-//   );
-// }
 
 const MobileCarouselComponent = () => {
   const settings = {
     dots: true,
     infinite: true,
-    speed: 500,
+    speed: 700, // Puedes ajustar la velocidad de transición entre slides
     slidesToShow: 1,
     slidesToScroll: 1,
+    autoplay: true, // Habilita el desplazamiento automático
+    autoplaySpeed: 2000, // Tiempo en milisegundos que cada slide permanece visible
   };
 
   return (

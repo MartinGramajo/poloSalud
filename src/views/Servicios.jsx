@@ -4,10 +4,10 @@ const Servicios = () => {
   return (
     <div>
       <BannerServicios />
-      <article className="container py-4" style={{ textAlign: "start" }}>
+      <article className="container py-4 " style={{ textAlign: "start" }}>
         <div className=" py-4">
           <h1
-            className="text-center"
+            className="text-center animate__animated  animate__fadeInLeft"
             style={{ fontSize: "26px", fontWeight: "bold" }}
           >
             {" "}
@@ -15,7 +15,7 @@ const Servicios = () => {
           </h1>
         </div>
         <article>
-          <div className="row">
+          <div className="row animate__animated  animate__fadeInRight">
             <div className="col-lg-6  col-12">
               <h4 style={{ fontSize: "22px", fontWeight: "bold" }}>
                 Plan Polo Salud:

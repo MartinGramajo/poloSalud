@@ -8,68 +8,22 @@ import "slick-carousel/slick/slick-theme.css";
 import cliente from "../assets/img/slider15.png";
 import cliente2 from "../assets/img/slider3.png";
 import cliente3 from "../assets/img/slider16.png";
-import cliente4 from "../assets/img/slider8.png";
 
 import { Link } from "react-scroll";
 
-// function NextArrow(props) {
-//   const { onClick } = props;
-//   return (
-//     <div
-//       className="slick-next"
-//       style={{
-//         display: "flex",
-//         justifyContent: "center",
-//         alignItems: "center",
-//         background: "transparent",
-//         color: "black",
-//         fontSize: "24px",
-//         width: "30px",
-//         height: "30px",
-//         borderRadius: "50%",
-//       }}
-//       onClick={onClick}
-//     >
-//       ❯
-//     </div>
-//   );
-// }
-
-// function PrevArrow(props) {
-//   const { onClick } = props;
-//   return (
-//     <div
-//       className="slick-prev"
-//       style={{
-//         display: "flex",
-//         justifyContent: "center",
-//         alignItems: "center",
-//         background: "transparent",
-//         color: "black",
-//         fontSize: "24px",
-//         width: "30px",
-//         height: "30px",
-//         borderRadius: "50%",
-//       }}
-//       onClick={onClick}
-//     >
-//       ❮
-//     </div>
-//   );
-// }
 const CarouselComponent = () => {
   const settings = {
     dots: true,
     infinite: true,
-    speed: 500,
+    speed: 700, // Puedes ajustar la velocidad de transición entre slides
     slidesToShow: 1,
     slidesToScroll: 1,
-    // nextArrow: <NextArrow />,
-    // prevArrow: <PrevArrow />,
+    autoplay: true, // Habilita el desplazamiento automático
+    autoplaySpeed: 2200, // Tiempo en milisegundos que cada slide permanece visible
   };
 
   return (
-    <div style={{ width: "80%", margin: "auto" }}>
+    <div style={{ width: "90%", margin: "auto" }}>
       <Slider {...settings}>
         <div
           className="d-flex justify-content-center align-items-center"
@@ -93,7 +47,10 @@ const CarouselComponent = () => {
                 smooth={true}
                 duration={500}
               >
-                <button className="ver-mas-btn text-white">
+                <button
+                  className="ver-mas-btn text-white"
+                  style={{ fontSize: "12px" }}
+                >
                   CONOCÉ NUESTROS SERVICIOS
                 </button>
               </Link>

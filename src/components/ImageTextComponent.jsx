@@ -1,6 +1,6 @@
 import React from "react";
 import backgroundImage from "../assets/img/slider10.png";
-import { Link } from "react-router-dom";
+
 const ImageTextComponent = () => {
   return (
     <>
@@ -16,7 +16,7 @@ const ImageTextComponent = () => {
 
         {/* Texto a la derecha */}
         <div className="container" style={{ width: "50%" }}>
-          <h3>Servicios de Vanguardia para el Bienestar del Caballo de Polo</h3>
+          <h3>SERVICIOS DE VANGUARDIA</h3>
           <p>
             Explora nuestra oferta exclusiva de servicios, donde la ciencia y la
             tradición se unen para asegurar el máximo bienestar y rendimiento de

@@ -60,7 +60,10 @@ export default function ContactoForm() {
                 md="6"
                 controlId="validationCustom03"
               >
-                <Form.Label className="text-black-50 tamaño-medio">
+                <Form.Label
+                  className="tamaño-medio"
+                  style={{ fontWeight: "bold" }}
+                >
                   Nombre*
                 </Form.Label>
                 <Form.Control type="text" required name="name" />
@@ -69,7 +72,10 @@ export default function ContactoForm() {
                 </Form.Control.Feedback>
               </Form.Group>
               <Form.Group as={Col} md="6" controlId="validationCustom04">
-                <Form.Label className="text-black-50 mt-2 tamaño-medio">
+                <Form.Label
+                  className="tamaño-medio"
+                  style={{ fontWeight: "bold" }}
+                >
                   Whatsapp*
                 </Form.Label>
                 <Form.Control
@@ -85,7 +91,10 @@ export default function ContactoForm() {
             </Row>
             <Row>
               <Form.Group as={Col} md="6" controlId="validationCustom03">
-                <Form.Label className="text-black-50 mt-2 tamaño-medio">
+                <Form.Label
+                  className="tamaño-medio mt-2"
+                  style={{ fontWeight: "bold" }}
+                >
                   Email*
                 </Form.Label>
                 <Form.Control type="email" required name="email" />
@@ -94,7 +103,10 @@ export default function ContactoForm() {
                 </Form.Control.Feedback>
               </Form.Group>
               <Form.Group as={Col} md="6" controlId="validationCustom03">
-                <Form.Label className="text-black-50 mt-2  tamaño-medio">
+                <Form.Label
+                  className="tamaño-medio mt-2"
+                  style={{ fontWeight: "bold" }}
+                >
                   Consulta
                 </Form.Label>
                 <InputGroup>

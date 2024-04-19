@@ -1,11 +1,13 @@
 import React from "react";
-import backgroundImage from "../assets/img/slider15.png"; // Ruta de tu imagen de fondo
-import logoNuevo from "../assets/img/logo.png";
+import backgroundImage from "../assets/img/slider2.png"; // Ruta de tu imagen de fondo
+import logoNuevo from "../assets/img/logoblanco.png";
 import { Link } from "react-router-dom";
+import "animate.css";
 
 const BioComponentMobile = () => {
   return (
     <div
+      className="animate__animated  animate__backInUp"
       style={{
         position: "relative",
         height: "700px",

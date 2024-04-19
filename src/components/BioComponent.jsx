@@ -1,14 +1,16 @@
 import React from "react";
 import backgroundImage from "../assets/img/slider2.png"; // Ruta de tu imagen de fondo
-import logoNuevo from "../assets/img/logo.png";
+import logoNuevo from "../assets/img/logoblanco.png";
 import { Link } from "react-router-dom";
+import "animate.css";
 
 const BioComponent = () => {
   return (
     <div
+      className="animate__animated  animate__backInUp"
       style={{
         position: "relative",
-        height: "900px",
+        height: "800px",
         width: "100%",
         overflow: "hidden",
       }}
@@ -69,14 +71,14 @@ const BioComponent = () => {
           maxWidth: "40%", // Ancho máximo de la biografía
         }}
       >
-        <p className="lato-regular" style={{ fontSize: "16px" }}>
+        <p className="lato-regular " style={{ fontSize: "16px" }}>
           De criarse entre caballos en la provincia de Buenos Aires, a elegir
           una vida más citadina estudiando abogacía en la UBA y trabajar en el
           poder judicial al mismo tiempo que comenzaba una carrera de bailarina
           de danza contemporánea que la hizo mudarse a Europa a los 22 años, es
           que Maria Luján llegó a la Osteopatía y decidió formarse en ello.
         </p>
-        <div className="mt-4">
+        <div className="mt-4 ">
           <Link to="/quien/soy">
             <button className="ver-mas-btn text-white">
               Conocé más de su historia
